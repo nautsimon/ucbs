@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 
 //https://codepen.io/negan1911/pen/GLbBGm
 //https://codepen.io/wrtchd/pen/mJOGap soft edges
-var counter = 0;
 const noise = new SimplexNoise();
 class SceneThree extends Component {
   constructor(props) {
@@ -104,8 +103,6 @@ class SceneThree extends Component {
       }
     }
     this.plane.geometry.getAttribute("position").needsUpdate = true;
-
-    counter += 0.009;
 
     var tanFOV = Math.tan(((Math.PI / 180) * this.camera.fov) / 2);
     var windowHeight = window.innerHeight;
