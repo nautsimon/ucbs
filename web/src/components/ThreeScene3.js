@@ -88,6 +88,7 @@ class SceneThree extends Component {
     }
   }
   animate() {
+    this.camera.rotation.z += 0.002;
     let pos = this.plane.geometry.getAttribute("position");
     let pa = pos.array;
     var hVerts = this.plane.geometry.parameters.height + 1;
@@ -96,7 +97,7 @@ class SceneThree extends Component {
       for (let i = 0; i < wVerts; i++) {
         let x = pa[3 * (j * wVerts + i)];
         let y = pa[3 * (j * wVerts + i) + 1];
-        var amp = counter <= 1.115 ? counter : 1.115;
+        var amp = 1.115;
         const time = Date.now();
         pa[3 * (j * wVerts + i) + 2] =
           noise.noise2D(x + time * 0.0003, y + time * 0.0001) * 2 * amp;
