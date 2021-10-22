@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+.tempMain {
+  background: transparent;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three {
+  z-index: 1;
+}
+.tempCenter {
+  text-align: center;
+}
+.hover {
+  transition: all 0.6s;
+  opacity: 1;
+}
+.hover:hover {
+  opacity: 0.5;
+}
+.hoverB {
+  transition: all 1s;
+  background: transparent;
+  color: white;
+}
+.hoverB:hover {
+  background: white;
+  color: black;
+}
+
+.mainDiv {
+  width: 100%;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+.mainMarginDiv {
+  width: 76%;
+  margin: 40px 12%;
+  text-align: left;
+}
+.pageTitle {
+  font-size: 90pt;
+  font-weight: 300;
+  margin: 0px;
+  margin-top: -10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.profileDiv {
+  width: 29.3%;
+  margin: 10px 2%;
+}
+
+.profileImgDiv {
+  position: relative;
+  width: 90%;
+  padding: 10px 5%;
+}
+.profileImg {
+  position: relative;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.profileTextDiv {
+  width: 90%;
+  margin: 5px 5%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profileSubtitle {
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0px;
+}
+.profileSubSubtitle {
+  font-size: 13px;
+}
+.linkedinLink {
+  text-decoration: none;
+}
+
+.linkedinLogo {
+  margin-top: 6px;
+  width: 15px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.navLinkText {
+  color: white;
+  padding: 4px 10px;
+  margin: 0px 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
