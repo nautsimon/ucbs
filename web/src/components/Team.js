@@ -21,7 +21,9 @@ class Team extends React.Component {
               <div className="profileTextDiv">
                 <p className="profileSubtitle">Elliot Paschal</p>
                 <i className="profileSubSubtitle">
-                  UChicago 24 | Juicebox DAO, UMich Research
+                  UChicago 24
+                  <br />
+                  Juicebox DAO, UMich Research
                 </i>
                 <br />
                 <a
@@ -42,7 +44,11 @@ class Team extends React.Component {
               </div>
               <div className="profileTextDiv">
                 <p className="profileSubtitle">Lexington Brill</p>
-                <i className="profileSubSubtitle">UChicago 23 | Amazon</i>
+                <i className="profileSubSubtitle">
+                  UChicago 23
+                  <br />
+                  Amazon
+                </i>
                 <br />
                 <a
                   href="https://www.linkedin.com/in/lexingtonbrill/"
@@ -63,7 +69,9 @@ class Team extends React.Component {
               <div className="profileTextDiv">
                 <p className="profileSubtitle">Simon Mahns</p>
                 <i className="profileSubSubtitle">
-                  UChicago 23 | Facebook, Globus Labs, CSIL
+                  UChicago 23
+                  <br />
+                  Facebook, Globus Labs, CSIL
                 </i>
                 <br />
                 <a
@@ -85,7 +93,9 @@ class Team extends React.Component {
               <div className="profileTextDiv">
                 <p className="profileSubtitle">Timothy Clifford</p>
                 <i className="profileSubSubtitle">
-                  UChicago 24 | Blockchain Coinvestors & Fifth Era
+                  UChicago 24
+                  <br />
+                  Blockchain Coinvestors & Fifth Era
                 </i>
                 <br />
                 <a
