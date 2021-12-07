@@ -145,6 +145,10 @@ nav {
 .maroonLine{
   border-color: maroon
 }
+.logoNav{
+  width: 30px;
+  margin-bottom: -10px;
+}
 .blackText{
   color: black;
 }
