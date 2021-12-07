@@ -3,12 +3,11 @@ import * as THREE from "three";
 
 import SimplexNoise from "simplex-noise";
 import { NavLink } from "react-router-dom";
-import sky from "../imgs/outlineSky.png";
+
 
 //https://codepen.io/negan1911/pen/GLbBGm
 //https://codepen.io/wrtchd/pen/mJOGap soft edges
 var counter = 0;
-var flag = true;
 const noise = new SimplexNoise();
 class SceneThree extends Component {
   constructor(props) {
@@ -29,7 +28,7 @@ class SceneThree extends Component {
 
     camera.position.set(0, -2, 0);
 
-    var tubePoints = [];
+
 
     // var incrm = 0;
     // for (var i = 0; i < 5; i += 1) {
@@ -100,38 +99,7 @@ class SceneThree extends Component {
     this.mount.appendChild(this.renderer.domElement);
     this.start();
   }
-  planeCurve(g, z) {
-    let p = g.parameters;
-    let hw = p.width * 0.5;
 
-    let a = new THREE.Vector2(-hw, 0);
-    let b = new THREE.Vector2(0, z);
-    let c = new THREE.Vector2(hw, 0);
-
-    let ab = new THREE.Vector2().subVectors(a, b);
-    let bc = new THREE.Vector2().subVectors(b, c);
-    let ac = new THREE.Vector2().subVectors(a, c);
-
-    let r =
-      (ab.length() * bc.length() * ac.length()) / (2 * Math.abs(ab.cross(ac)));
-
-    let center = new THREE.Vector2(0, z - r);
-    let baseV = new THREE.Vector2().subVectors(a, center);
-    let baseAngle = baseV.angle() - Math.PI * 0.5;
-    let arc = baseAngle * 2;
-
-    let uv = g.attributes.uv;
-    let pos = g.attributes.position;
-    let mainV = new THREE.Vector2();
-    for (let i = 0; i < uv.count; i++) {
-      let uvRatio = 1 - uv.getX(i);
-      let y = pos.getY(i);
-      mainV.copy(c).rotateAround(center, arc * uvRatio);
-      pos.setXYZ(i, mainV.x, y, -mainV.y);
-    }
-
-    pos.needsUpdate = true;
-  }
   componentWillUnmount() {
     this.stop();
     this.mount.removeChild(this.renderer.domElement);
@@ -176,8 +144,6 @@ class SceneThree extends Component {
     let pos = this.tubeMesh.geometry.getAttribute("position");
     let pa = pos.array;
     let paLen = pos.array.length;
-    var depthV = this.tubeMesh.geometry.parameters.height + 1; //number of discs (200)
-    var discV = this.tubeMesh.geometry.parameters.radialSegments + 1; //in each disc, how many verticies (100)
 
     for (let i = 0; i < paLen; i += 3) {
       // let x = pa[i] + 0.01;
