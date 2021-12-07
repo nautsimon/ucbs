@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import * as THREE from "three";
 import SimplexNoise from "simplex-noise";
 import { NavLink } from "react-router-dom";
-
+import sky from "../imgs/outlineSky.png";
 //https://codepen.io/negan1911/pen/GLbBGm
 //https://codepen.io/wrtchd/pen/mJOGap soft edges
 const noise = new SimplexNoise();
@@ -23,34 +23,35 @@ class SceneThree extends Component {
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     // camera.rotation.z = Math.PI / 3;
     // camera.rotation.y = Math.PI / 2;
-    camera.position.set(0, 0, 10);
+    camera.position.set(0, 0, 125);
 
     //
-    var geometry = new THREE.PlaneGeometry(400, 400, 50, 50);
+    var geometry = new THREE.PlaneBufferGeometry(400, 300, 100, 100);
     geometry.dynamic = true;
 
     var dMaterial = new THREE.MeshBasicMaterial({
-      color: 0xffffff,
+      color: 0x800000,
       wireframe: true,
     });
     var plane = new THREE.Mesh(geometry, dMaterial);
 
     plane.rotation.x = Math.PI / 2;
     // plane.rotation.y = Math.PI / 2;
-    plane.rotation.z = Math.PI / 4;
-    plane.position.set(0, 30, 0);
+    // plane.rotation.z =Math.PI / 4;
+    plane.position.set(0, -20, -30);
     scene.add(plane);
-    var plane2 = plane.clone();
+    // var plane2 = plane.clone();
 
-    plane2.position.set(0, -30, 0);
-    scene.add(plane2);
-    const light = new THREE.AmbientLight(0xffffff); // soft white light
-    scene.add(light);
-    renderer.setClearColor(0x080808, 1);
-    scene.fog = new THREE.Fog(0xf0f0f0f, 0.0025, 200);
+    // plane2.position.set(0, -30, 0);
+    // scene.add(plane2);
+    // const light = new THREE.AmbientLight(0xffffff); // soft white light
+    // scene.add(light);
+    renderer.setClearColor(0x000000, 1);
+    scene.fog = new THREE.Fog(0x000000, 0.0025, 200);
 
     this.plane = plane;
-    this.plane2 = plane2;
+    renderer.setPixelRatio(window.devicePixelRatio)
+    // this.plane2 = plane2;
     this.scene = scene;
     this.camera = camera;
     this.renderer = renderer;
@@ -87,7 +88,7 @@ class SceneThree extends Component {
     }
   }
   animate() {
-    this.camera.rotation.z += 0.002;
+    // this.camera.rotation.z += 0.002;
     let pos = this.plane.geometry.getAttribute("position");
     let pa = pos.array;
     var hVerts = this.plane.geometry.parameters.height + 1;
@@ -129,11 +130,13 @@ class SceneThree extends Component {
           ref={(mount) => {
             this.mount = mount;
           }}
-        ></div>{" "}
+        ></div>
         <div className="tempMain">
+        <img className="backgroundSkyline" alt="skyline" src={sky}/>
+
           <div className="tempCenter">
-            <p className="tempText">Under Construction</p>
-            <hr />
+            <p className="mainTitle"><span className="maroonText">Blockchain</span> <span className="maroonText">Chicago</span></p> 
+            <hr className="maroonLine" />
             <div className="menu">
               <NavLink
                 className="navLinkText hoverB"

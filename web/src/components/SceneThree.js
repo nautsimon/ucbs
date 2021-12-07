@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import * as THREE from "three";
 
 import SimplexNoise from "simplex-noise";
+import { NavLink } from "react-router-dom";
+import sky from "../imgs/outlineSky.png";
 
 //https://codepen.io/negan1911/pen/GLbBGm
 //https://codepen.io/wrtchd/pen/mJOGap soft edges
 var counter = 0;
+var flag = true;
 const noise = new SimplexNoise();
 class SceneThree extends Component {
   constructor(props) {
@@ -24,7 +27,7 @@ class SceneThree extends Component {
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     camera.rotation.x = Math.PI / 2;
 
-    camera.position.set(0, -5, 0);
+    camera.position.set(0, -2, 0);
 
     var tubePoints = [];
 
@@ -39,7 +42,7 @@ class SceneThree extends Component {
     // curve.type = "catmullrom";
 
     // var geometry = new THREE.TubeBufferGeometry(curve, 100, 4, 100, false);
-    var geometry = new THREE.CylinderBufferGeometry(5, 5, 20, 64, 32);
+    var geometry = new THREE.CylinderBufferGeometry(7, 7, 20, 64, 32);
 
     // var geometry = new THREE.PlaneBufferGeometry(400, 400, 50, 50);
     geometry.dynamic = true;
@@ -88,6 +91,7 @@ class SceneThree extends Component {
     scene.add(light);
     renderer.setClearColor(0x080808, 1);
     scene.fog = new THREE.Fog(0x000000, 0.025, 100);
+    renderer.setPixelRatio(window.devicePixelRatio);
 
     this.tubeMesh = tubeMesh;
     this.scene = scene;
@@ -174,21 +178,44 @@ class SceneThree extends Component {
     let paLen = pos.array.length;
     var depthV = this.tubeMesh.geometry.parameters.height + 1; //number of discs (200)
     var discV = this.tubeMesh.geometry.parameters.radialSegments + 1; //in each disc, how many verticies (100)
+
     for (let i = 0; i < paLen; i += 3) {
       // let x = pa[i] + 0.01;
       // let y = pa[i + 2] + 0.01;
       // let z = pa[i + 1] + 0.01;
-      // const time = Date.now();
-      // pa[i + 1] =
-      //   noise.noise3D(x + time * 0.001, y + time * 0.001, z + time * 0.001) *
-      //   0.8;
-      // pa[i + 2] = pa[i + 2] + 0.01;
-      // pa[i + 1] = pa[i + 2] + 0.01;
+
       //x -> left/right -> pa[i] = pa[i] + 0.001;
       //y-> up/down -> pa[i + 2] = pa[i + 2] + 0.001;
       //z-> foward/back -> pa[i + 1] = pa[i + 1] + 0.001;
       // pa[i + 1] = pa[i + 1] + 0.001;
-      // pa[i + 1] = pa[i + 1] + 0.001;
+      var amp = 0.0015;
+      const time = Date.now();
+      pa[i + 2] =
+        pa[i + 2] -
+        noise.noise2D(
+          pa[i] + time * 0.0001,
+
+          pa[i + 1] + time * 0.0001
+        ) *
+          amp;
+      pa[i + 0] =
+        pa[i + 0] -
+        noise.noise2D(
+
+          pa[i + 2] + time * 0.001,
+          pa[i + 1] + time * 0.0001
+        ) *
+          amp;
+
+        // pa[i + 1] =
+        //   pa[i + 1] +
+        //   noise.noise3D(
+        //     pa[i] + time * 0.0003,
+        //     pa[i + 2] + time * 0.001,
+        //     pa[i + 1] + time * 0.0001
+        //   ) *
+        //     amp;
+      
     }
     // for (let depthIndex = 0; depthIndex < depthV; depthIndex++) {
     //   for (let discIndex = 0; discIndex < discV; discIndex++) {
@@ -279,12 +306,45 @@ class SceneThree extends Component {
 
   render() {
     return (
-      <div
-        className="three"
-        ref={(mount) => {
-          this.mount = mount;
-        }}
-      ></div>
+      <div>
+        <div
+          className="three"
+          ref={(mount) => {
+            this.mount = mount;
+          }}
+        ></div>
+        <div className="tempMain">
+
+          <div className="tempCenter">
+            <p className="mainTitle"><span className="maroonText">BLOCKCHAIN</span> <span className="maroonText">CHICAGO</span></p> 
+            <hr />
+            <div className="menu">
+              <NavLink
+                className="navLinkText hoverB"
+                activeClassName="linkActive"
+                to="/about"
+              >
+                About
+              </NavLink>
+
+              <NavLink
+                className="navLinkText hoverB"
+                activeClassName="linkActive"
+                to="/team"
+              >
+                Team
+              </NavLink>
+              <NavLink
+                className="navLinkText hoverB"
+                activeClassName="linkActive"
+                to="/apply"
+              >
+                Apply
+              </NavLink>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }

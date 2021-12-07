@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import SceneThree from "./components/SceneThree";
-import SceneThree2 from "./components/ThreeScene3";
+import SceneThree2 from "./components/SceneThree";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Apply from "./components/Apply";

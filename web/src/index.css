@@ -28,6 +28,7 @@ body {
 }
 .tempCenter {
   text-align: center;
+  z-index: 3;
 }
 .hover {
   transition: all 0.6s;
@@ -128,6 +129,34 @@ nav {
   text-decoration: none;
   cursor: pointer;
 }
+.mainLogo{
+  width: 100%;
+
+}
+.mainTitle{
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+  margin: 0px;
+}
+.maroonText{
+  color: white;
+}
+.maroonLine{
+  border-color: maroon
+}
+.blackText{
+  color: black;
+}
+.backgroundSkyline{
+  position: fixed;
+  filter: blur(4px);
+  width: 50%;
+  /* margin-top: -1%; */
+  z-index: 1;
+
+}
+
 @media screen and (max-width: 960px) {
   .row {
     flex-wrap: wrap;
