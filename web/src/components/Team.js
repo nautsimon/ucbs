@@ -3,6 +3,7 @@ import simon from "../imgs/simon.png";
 import lex from "../imgs/lex.jpg";
 import tim from "../imgs/tim.jpg";
 import elliot from "../imgs/elliot.jpg";
+import james from "../imgs/james.png";
 
 import linkedinLogo from "../imgs/linkedinLogo.png";
 
@@ -106,6 +107,24 @@ class Team extends React.Component {
                 </a>
               </div>
             </div>
+          </div>
+          <div className="row">
+            <div className="profileDiv">
+              <div className="profileImgDiv">
+                <img src={james} className="profileImg" alt="james" />
+              </div>
+              <div className="profileTextDiv">
+                <p className="profileSubtitle">James Slattery</p>
+                <i className="profileSubSubtitle">
+                  UChicago 23
+                  <br />
+                  USMC, SMB Capital
+                </i>
+              </div>
+            </div>
+            <div className="profileDiv"></div>
+            <div className="profileDiv"></div>
+            <div className="profileDiv"></div>
           </div>
         </div>
       </div>

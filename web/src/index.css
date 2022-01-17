@@ -167,6 +167,18 @@ nav {
   z-index: 1;
 
 }
+a {
+  color: #fff;
+}
+
+
+.socials a {
+  text-decoration:none;
+  color: #fff;
+}
+.socials a:hover {
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 960px) {
   .row {
