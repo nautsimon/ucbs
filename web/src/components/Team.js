@@ -4,6 +4,8 @@ import lex from "../imgs/lex.jpg";
 import tim from "../imgs/tim.jpg";
 import elliot from "../imgs/elliot.jpg";
 import james from "../imgs/james.png";
+import nikko from "../imgs/nikko.jpg";
+import gwen from "../imgs/gwen.jpg";
 
 import linkedinLogo from "../imgs/linkedinLogo.png";
 
@@ -14,7 +16,7 @@ class Team extends React.Component {
         <div className="mainMarginDiv">
           <p className="pageTitle">Team</p>
           <br />
-          <div className="row">
+          <div className="row ">
             <div className="profileDiv">
               <div className="profileImgDiv">
                 <img src={elliot} className="profileImg" alt="elliot" />
@@ -122,8 +124,32 @@ class Team extends React.Component {
                 </i>
               </div>
             </div>
-            <div className="profileDiv"></div>
-            <div className="profileDiv"></div>
+            <div className="profileDiv">
+              <div className="profileImgDiv">
+                <img src={nikko} className="profileImg" alt="james" />
+              </div>
+              <div className="profileTextDiv">
+                <p className="profileSubtitle">Nikko Wheeler</p>
+                <i className="profileSubSubtitle">
+                  UChicago 25
+                  <br />
+                  USN
+                </i>
+              </div>
+            </div>
+            <div className="profileDiv">
+              <div className="profileImgDiv">
+                <img src={gwen} className="profileImg" alt="james" />
+              </div>
+              <div className="profileTextDiv">
+                <p className="profileSubtitle">Gwyneth Howell</p>
+                <i className="profileSubSubtitle">
+                  UChicago 24
+                  <br />
+                  CPGD
+                </i>
+              </div>
+            </div>
             <div className="profileDiv"></div>
           </div>
         </div>

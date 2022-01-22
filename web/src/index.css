@@ -179,7 +179,9 @@ a {
 .socials a:hover {
   text-decoration: underline;
 }
-
+.wrap{
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 960px) {
   .row {
     flex-wrap: wrap;
