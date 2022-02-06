@@ -301,7 +301,7 @@ class SceneThree extends Component {
               </NavLink>
             </div>
             <p className="mainTitle">BLOCKCHAIN CHICAGO</p>
-            <div className="row centerRow">
+            <div className="rowSocial centerRow">
               <a
                 href="https://www.linkedin.com/company/blockchain-chicago"
                 target="_blank"
