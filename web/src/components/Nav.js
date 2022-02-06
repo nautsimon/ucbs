@@ -2,6 +2,7 @@ import React from "react"; //imports react
 import { NavLink } from "react-router-dom";
 import logo from "../imgs/bc.png";
 
+
 class Nav extends React.Component {
   render() {
     return (
@@ -27,14 +28,15 @@ class Nav extends React.Component {
             activeClassName="linkActive"
             to="/"
           >
-            <img src={logo} className="logoNav" alt="logo"/>
+            <img src={logo} className="logoNav" alt="logo" />
           </NavLink>
+
           <NavLink
             className="navLinkText hover"
             activeClassName="linkActive"
-            to="/team"
+            to="/events"
           >
-            Team
+            Events
           </NavLink>
           <NavLink
             className="navLinkText hover"

@@ -1,4 +1,7 @@
 import React from "react"; //imports react
+import FadeIn from "react-fade-in";
+import apply from "../imgs/apply.png";
+// import staff from "../imgs/staffPic.png";
 
 class About extends React.Component {
   render() {
@@ -7,33 +10,45 @@ class About extends React.Component {
         <div className="mainMarginDiv">
           <p className="pageTitle">Apply</p>
           <br />
-          <p>
-            Blockchain Chicago intends to begin taking applications for
-            membership in Spring 2022 Quarter. Submit the form below to stay
-            informed, also be sure to follow us on{" "}
-            <a
-              href="https://twitter.com/ucblockchain"
-              title="Twitter"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Twitter
-            </a>
-            !
-          </p>
-          <center>
-            <iframe
-              title="googleForm"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdcpPvM8hpRtkdopPRZ7vtSIv4gWITpNT3gR8H5Gq_U3jDsgA/viewform?embedded=true"
-              width="640"
-              height="1641"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
-            >
-              Loading…
-            </iframe>
-          </center>
+          <FadeIn transitionDuration={1100}>
+            <div className="row">
+              <div className="aboutLeft">
+                <p className="regularTitle">Apply to our Spring 2022 cohort </p>
+                <p className="regularSubTitle">
+                  Applications will be released on 03/08/22
+                </p>
+                <div className="applyImgDiv">
+                  <a
+                    href="https://www.instagram.com/blockchainchicago/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="socialLink"
+                    style={{ opacity: 0.4, pointerEvents: "none" }}
+                  >
+                    <img className="applyImg" src={apply} alt="staffImg" />
+                  </a>
+                </div>
+              </div>
+              <div className="aboutRight">
+                <p className="regularTitle">
+                  Got blockchain knowledge already?{" "}
+                </p>
+                <p className="regularSubTitle">
+                  We are looking for a few more people to join our staff!
+                </p>
+                <div className="applyImgDiv">
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="socialLink"
+                  >
+                    <img className="applyImg" src={apply} alt="staffImg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </div>
     );

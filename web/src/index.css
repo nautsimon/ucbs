@@ -7,14 +7,29 @@
 @-ms-viewport {
   width: device-width;
 }
+footer{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+}
+.noMargin{
+  margin: 0pc
+}
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #1B191A;
   color: white;
+}
+.titleMainDiv{
+  width: 100%;
+
 }
 .tempMain {
   background: transparent;
@@ -45,11 +60,28 @@ body {
 }
 .hoverB:hover {
   background: white;
-  color: black;
+  color: #1B191A;
 }
 
 .mainDiv {
   width: 100%;
+}
+.aboutLeft{
+  width: 47%;
+  margin-right: 3%;
+
+}
+.aboutRight{
+  width: 47%;
+  margin-left: 3%;
+
+
+}
+.aboutRightIn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
 canvas {
@@ -65,12 +97,21 @@ canvas {
   text-align: left;
 }
 .pageTitle {
-  font-size: 90pt;
+  font-size: 50pt;
   font-weight: 300;
   margin: 0px;
   margin-top: -10px;
 }
-
+.regularTitle {
+  font-size:20pt;
+  font-weight: 300;
+  margin: 0px;
+}
+.regularSubTitle {
+  font-size:16pt;
+  font-weight: 300;
+  margin: 0px;
+}
 .row {
   display: flex;
   flex-direction: row;
@@ -123,7 +164,7 @@ nav {
   justify-content: center;
   margin-top: 40px;
 }
-.menu{
+.menu {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -132,56 +173,186 @@ nav {
 .navLinkText {
   color: white;
   padding: 4px 10px;
-  margin: 0px 2px;
+  margin: 0px 0px;
   text-decoration: none;
+  /* border: solid 1px white; */
+  border-radius: 10px;
   cursor: pointer;
 }
-.mainLogo{
-  width: 100%;
-
-}
-.mainTitle{
-  color: black;
-  font-weight: bold;
-  font-size: 23px;
+.navLinkTextSpan{
+  transition: all 0.6s;
+  border-radius: 4px;
+  padding: 2px 3px;
   margin: 0px;
 }
-.maroonText{
+.navLinkTextSpan:hover{
+  color: #1B191A;
+  background: white;
+  
+}
+.regLinkText {
   color: white;
+  margin: 0px 0px;
+  text-decoration: none;
+  border-bottom: solid 1px white;
+  cursor: pointer;
 }
-.maroonLine{
-  border-color: maroon
+.regLinkTextSpan{
+  transition: all 0.6s;
+  border-radius: 4px;
+  margin: 0px;
 }
-.logoNav{
+.regLinkTextSpan:hover{
+  color: #9e9e9e;
+  
+}
+.mainLogo {
+  width: 100%;
+}
+.mainTitle {
+  color: white;
+  font-weight:800;
+  font-size: 23px;
+  margin: 7px 0px;
+}
+/* .maroonText {
+  color: white;
+} */
+.maroonLine {
+  border-color: maroon;
+}
+.logoNav {
   width: 30px;
   margin-bottom: -10px;
 }
-.blackText{
-  color: black;
+.blackText {
+  color: #1B191A;
 }
-.backgroundSkyline{
+.backgroundSkyline {
   position: fixed;
   filter: blur(4px);
   width: 50%;
   /* margin-top: -1%; */
   z-index: 1;
-
 }
 a {
   color: #fff;
 }
 
-
 .socials a {
-  text-decoration:none;
+  text-decoration: none;
   color: #fff;
 }
 .socials a:hover {
   text-decoration: underline;
 }
-.wrap{
+.wrap {
   flex-wrap: wrap;
 }
+.navLinkImg{
+  width: 46%;
+  margin: 2% 2%;
+}
+.aboutTileImg{
+  width: 100%;
+}
+.eventsDiv {
+}
+.eventDiv {
+  position: relative;
+}
+.eventDateDiv {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eventInfoDiv {
+  width: 70%;
+}
+.eventInfoInDiv{
+  width: 90%;
+  margin: 20px 5%;
+  background: #1B191A;
+  border-radius: 10px;
+  padding: 20px 30px;
+  border: solid 1px white;
+}
+.eventInfoInInDiv{
+  padding: 0px;
+}
+.eventDateText{
+  background: #1B191A;
+  padding: 8px;
+  z-index: 2;
+}
+.verticalLine {
+  border-left: 1px solid white;
+  height: 100%;
+  position: absolute;
+  left: 15%;
+  margin-left: -0.5px;
+  top: 0;
+}
+.eventTitle{
+  font-size: 25px;
+  margin: 0px;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+.eventText{
+  margin: 0px;
+}
+.textPaddingLeft{
+  padding-left: 6px;
+}
+.icon{
+  width: 18px;
+}
+.iconDiv{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.registerButton{
+  padding: 10px 15px;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.6s;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.applyImgDiv{
+  width: 60%;
+  margin: 20px 20%;
+}
+.applyImg{
+  width: 100%;
+}
+.line{
+  margin: 20px 0px;
+}
+.spaceBetween{
+  justify-content: space-between;
+}
+.registerButton:hover{
+ opacity: 0.7;
+}
+.centerRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialLink{
+ margin: 5px 4px;
+ transition: all 0.6s;
+}
+.socialLink:hover{
+  opacity: 0.6;
+}
+
 @media screen and (max-width: 960px) {
   .row {
     flex-wrap: wrap;
@@ -195,26 +366,30 @@ a {
     text-align: center;
   }
 }
+
 @media screen and (max-width: 600px) {
   .row {
     flex-direction: column;
   }
-  .profileDiv {
+  .mainTitle{
+    font-size: 19px;
+  }
+  .profileDiv, .aboutLeft, .aboutRight {
     width: 98%;
     margin: 20px 1%;
   }
-  .pageTitle{
+  .pageTitle {
     font-size: 40px;
   }
-  .navLinkText{
+  .navLinkText {
     font-size: 11px;
     padding: 4px 5px;
   }
-  nav{
+  nav {
     margin: 0px;
     margin-top: 40px;
   }
-  .logoNav{
+  .logoNav {
     width: 25px;
   }
 }

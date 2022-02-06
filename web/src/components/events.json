@@ -1,0 +1,52 @@
+[
+    {
+        "name": "UChicago Alumni in Blockchain Panel",
+        "dateFormatted": "02/22/2022",
+        "timeFormatted": "7pm - 8pm CT",
+        "location": "Zoom",
+        "link": "",
+        "registrationLink": "",
+        "description": "Come join on us on zoom ",
+        "extraDescription": ""
+    },
+    {
+        "name": "UChicago Decentralized #1: Mitch Mechigian",
+        "dateFormatted": "03/01/2022",
+        "timeFormatted": "7pm - 8pm CT",
+        "location": "Zoom",
+        "link": "",
+        "registrationLink": "",
+        "description": "Mitch Mechigian is the Chief of Staff at Blockchain Coinvestors & Fifth Era.",
+        "extraDescription": "UChicago Decentralized is a interview-style speaker series intended to be distributed in live stream format and as an audio podcast."
+    },
+    {
+        "name": "Info Session #1",
+        "dateFormatted": "03/08/2022",
+        "timeFormatted": "7pm - 8pm CT",
+        "location": "Zoom",
+        "link": "",
+        "registrationLink": "",
+        "description": "Come learn more about our organization, applications, and what we have planned for spring quarter! (all registrants will receive a recording)",
+        "extraDescription": ""
+    },
+    {
+        "name": "Info Session #2",
+        "dateFormatted": "03/15/2022",
+        "timeFormatted": "7pm - 8pm CT",
+        "location": "Zoom",
+        "link": "",
+        "registrationLink": "",
+        "description": "Come learn more about our organization, applications, and what we have planned for spring quarter! (all registrants will receive a recording)",
+        "extraDescription": ""
+    },
+    {
+        "name": "Application Office Hours",
+        "dateFormatted": "03/22/2022",
+        "timeFormatted": "3pm - 6pm CT",
+        "location": "Zoom",
+        "link": "",
+        "registrationLink": "",
+        "description": "Come in to ask any last minute questions about your application!",
+        "extraDescription": ""
+    }
+]

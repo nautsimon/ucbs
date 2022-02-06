@@ -3,7 +3,9 @@ import * as THREE from "three";
 
 import SimplexNoise from "simplex-noise";
 import { NavLink } from "react-router-dom";
-
+import linkedin from "../imgs/linked.png";
+import instagram from "../imgs/instagram.png";
+import twitter from "../imgs/twitter.png";
 
 //https://codepen.io/negan1911/pen/GLbBGm
 //https://codepen.io/wrtchd/pen/mJOGap soft edges
@@ -27,8 +29,6 @@ class SceneThree extends Component {
     camera.rotation.x = Math.PI / 2;
 
     camera.position.set(0, -2, 0);
-
-
 
     // var incrm = 0;
     // for (var i = 0; i < 5; i += 1) {
@@ -88,7 +88,7 @@ class SceneThree extends Component {
     scene.add(tubeMesh);
     const light = new THREE.AmbientLight(0xffffff); // soft white light
     scene.add(light);
-    renderer.setClearColor(0x080808, 1);
+    renderer.setClearColor(0x1b191a, 1);
     scene.fog = new THREE.Fog(0x000000, 0.025, 100);
     renderer.setPixelRatio(window.devicePixelRatio);
 
@@ -166,22 +166,17 @@ class SceneThree extends Component {
           amp;
       pa[i + 0] =
         pa[i + 0] -
-        noise.noise2D(
-
-          pa[i + 2] + time * 0.001,
-          pa[i + 1] + time * 0.0001
-        ) *
+        noise.noise2D(pa[i + 2] + time * 0.001, pa[i + 1] + time * 0.0001) *
           amp;
 
-        // pa[i + 1] =
-        //   pa[i + 1] +
-        //   noise.noise3D(
-        //     pa[i] + time * 0.0003,
-        //     pa[i + 2] + time * 0.001,
-        //     pa[i + 1] + time * 0.0001
-        //   ) *
-        //     amp;
-      
+      // pa[i + 1] =
+      //   pa[i + 1] +
+      //   noise.noise3D(
+      //     pa[i] + time * 0.0003,
+      //     pa[i + 2] + time * 0.001,
+      //     pa[i + 1] + time * 0.0001
+      //   ) *
+      //     amp;
     }
     // for (let depthIndex = 0; depthIndex < depthV; depthIndex++) {
     //   for (let discIndex = 0; discIndex < discV; discIndex++) {
@@ -280,33 +275,57 @@ class SceneThree extends Component {
           }}
         ></div>
         <div className="tempMain">
-
           <div className="tempCenter">
-            <p className="mainTitle"><span className="maroonText">BLOCKCHAIN</span> <span className="maroonText">CHICAGO</span></p> 
-            <hr />
             <div className="menu">
               <NavLink
-                className="navLinkText hoverB"
+                className="navLinkText "
                 activeClassName="linkActive"
                 to="/about"
               >
-                About
+                <span className="navLinkTextSpan">[About]</span>
               </NavLink>
 
               <NavLink
-                className="navLinkText hoverB"
+                className="navLinkText "
                 activeClassName="linkActive"
-                to="/team"
+                to="/events"
               >
-                Team
+                <span className="navLinkTextSpan">[Events]</span>
               </NavLink>
               <NavLink
-                className="navLinkText hoverB"
+                className="navLinkText "
                 activeClassName="linkActive"
                 to="/apply"
               >
-                Apply
+                <span className="navLinkTextSpan">[Apply]</span>
               </NavLink>
+            </div>
+            <p className="mainTitle">BLOCKCHAIN CHICAGO</p>
+            <div className="row centerRow">
+              <a
+                href="https://www.linkedin.com/company/blockchain-chicago"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="socialLink"
+              >
+                <img src={linkedin} alt="linkedin" className="icon" />
+              </a>
+              <a
+                href="https://twitter.com/ucblockchain"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="socialLink"
+              >
+                <img src={twitter} alt="twitter" className="icon" />
+              </a>
+              <a
+                href="https://www.instagram.com/blockchainchicago/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="socialLink"
+              >
+                <img src={instagram} alt="instagram" className="icon" />
+              </a>
             </div>
           </div>
         </div>

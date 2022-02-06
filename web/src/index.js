@@ -8,21 +8,30 @@ import About from "./components/About";
 import Nav from "./components/Nav";
 import Apply from "./components/Apply";
 import Team from "./components/Team";
-
+import Events from "./components/Events";
+import Footer from "./components/Footer";
 ReactDOM.render(
   <Router>
     <Switch>
       <Route path="/team">
         <Nav />
         <Team />
+        <Footer />
       </Route>
       <Route path="/about">
         <Nav />
         <About />
+        <Footer />
       </Route>
       <Route path="/apply">
         <Nav />
         <Apply />
+        <Footer />
+      </Route>
+      <Route path="/events">
+        <Nav />
+        <Events />
+        <Footer />
       </Route>
       {/* <Route path="/test">
         <SceneThree />
