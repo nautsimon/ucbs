@@ -1,13 +1,13 @@
 import React from "react"; //imports react
-import simon from "../imgs/simon.jpeg";
-import lex from "../imgs/lex.jpg";
-import tim from "../imgs/tim.jpg";
-import elliot from "../imgs/elliot.jpg";
-import james from "../imgs/james.png";
-import nikko from "../imgs/nikko.jpg";
-import gwen from "../imgs/gwen.jpg";
-import luke from "../imgs/luke.jpeg";
-import FadeIn from 'react-fade-in';
+import simon from "../team_imgs/simon.jpg";
+import lex from "../team_imgs/lex.jpg";
+import tim from "../team_imgs/tim.jpg";
+import elliot from "../team_imgs/elliot.jpg";
+import james from "../team_imgs/james.jpg";
+import nikko from "../team_imgs/nikko.jpg";
+import gwen from "../team_imgs/gwen.jpg";
+import luke from "../team_imgs/luke.jpg";
+import FadeIn from "react-fade-in";
 
 import linkedinLogo from "../imgs/linkedinLogo.png";
 
