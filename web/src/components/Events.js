@@ -2,7 +2,7 @@ import React from "react"; //imports react
 import data from "./events.json";
 import clock from "../imgs/clock.png";
 import location from "../imgs/location.png";
-import FadeIn from 'react-fade-in';
+import FadeIn from "react-fade-in";
 
 const events = data;
 class Team extends React.Component {
@@ -11,7 +11,9 @@ class Team extends React.Component {
       <div className="mainDiv">
         <div className="mainMarginDiv">
           <p className="pageTitle">Events</p>
-          <br /><br /><br />
+          <br />
+          <br />
+          <br />
           <FadeIn transitionDuration={1100}>
             <div className="eventsDiv">
               {events.map((event) => (
@@ -32,7 +34,7 @@ class Team extends React.Component {
                         <p className="eventTitle">{event.name}</p>
 
                         <p className="eventText">{event.description}</p>
-                        <p className="eventText">{event.registrationLink}</p>
+
                         {event.extraDescription.length > 0 ? (
                           <i className="eventText">{event.extraDescription}</i>
                         ) : null}
@@ -45,7 +47,14 @@ class Team extends React.Component {
                               {event.location}
                             </p>
                           </div>
-                          <button className="registerButton">Register</button>
+                          <a
+                            href={event.registrationLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="socialLink"
+                          >
+                            <button className="registerButton">Register</button>
+                          </a>
                         </div>
                       </div>
                     </div>

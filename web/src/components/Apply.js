@@ -38,7 +38,7 @@ class About extends React.Component {
                 </p>
                 <div className="applyImgDiv">
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://forms.gle/kJcWa2sMZ8M3s9XA6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="socialLink"
