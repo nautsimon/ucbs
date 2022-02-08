@@ -1,0 +1,122 @@
+[
+    {
+        "teamTeir": "Board of Directors",
+        "members": [
+            {
+                "name": "Elliot Paschal",
+                "affiliates": "Juicebox DAO, UMich Research",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/elliot-paschal/",
+                "twitter": "https://twitter.com/elliot_paschal",
+                "imagePath": "elliot.jpg"
+            },
+            {
+                "name": "Simon Mahns",
+                "affiliates": "Meta, Globus Labs, CSIL",
+                "subtitle": "UChicago 23",
+                "linkedin": "https://www.linkedin.com/in/simonmahns/",
+                "twitter": "",
+                "imagePath": "simon.jpg"
+            },
+            {
+                "name": "Timothy Clifford",
+                "affiliates": "Blockchain Coinvestors & Fifth Era",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/timothy-clifford-125141211/",
+                "twitter": "",
+                "imagePath": "tim.jpg"
+            },
+            {
+                "name": "James Slattery",
+                "affiliates": "USMC, SMB Capital",
+                "subtitle": "UChicago 23",
+                "linkedin": "",
+                "twitter": "",
+                "imagePath": "james.jpg"
+            },
+            {
+                "name": "Luke Rosa",
+                "affiliates": "Passport Labs",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/lucas-rosa-4a2717160/",
+                "twitter": "https://twitter.com/fudpotato",
+                "imagePath": "luke.jpg"
+            },
+            {
+                "name": "Gwyneth Howell",
+                "affiliates": "CPGD",
+                "subtitle": "UChicago 24",
+                "linkedin": "",
+                "twitter": "",
+                "imagePath": "gwen.jpg"
+            },
+            {
+                "name": "Nikko Wheeler",
+                "affiliates": "USN",
+                "subtitle": "UChicago 25",
+                "linkedin": "",
+                "twitter": "",
+                "imagePath": "nikko.jpg"
+            },
+            {
+                "name": "Lexington Brill",
+                "affiliates": "UXD, Amazon",
+                "subtitle": "UChicago 23",
+                "linkedin": "https://www.linkedin.com/in/lexingtonbrill/",
+                "twitter": "https://twitter.com/CryptoMaxPlanck",
+                "imagePath": "lex.jpg"
+            }
+        ]
+    },
+    {
+        "teamTeir": "Officers",
+        "members": [
+            {
+                "name": "Aadharsh Pannirselvam",
+                "affiliates": "Galaxy Digital",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/aadharsh-pannirselvam/",
+                "twitter": "",
+                "imagePath": "placeholder.png"
+            },
+            {
+                "name": "Sara Roman",
+                "affiliates": "Poslky, HBO, Disney",
+                "subtitle": "UChicago 24",
+                "linkedin": "",
+                "twitter": "",
+                "imagePath": "sara.jpeg"
+            }
+        ]
+    },
+    {
+        "teamTeir": "Advisors",
+        "members": [
+            {
+                "name": "Gina Pieters",
+                "subtitle": "Econonmist",
+                "affiliates": "University of Chicago",
+                
+                "linkedin": "https://www.linkedin.com/in/prof-gina-pieters-6856a894/",
+                "twitter": "https://twitter.com/ProfPieters",
+                "imagePath": "gina.jpg"
+            },
+            {
+                "name": "Ali Sheikh ",
+                "subtitle": "Principal, Investor",
+                "affiliates": "Reciprocal Ventures ",
+                "linkedin": "https://www.linkedin.com/in/ali-sheikh-19967b13/",
+                "twitter": "https://twitter.com/ProfPieters",
+                "imagePath": "placeholder.png"
+            },
+            {
+                "name": "Will Eastwick",
+                "subtitle": "Advisor",
+                "affiliates": "Greenskies Clean Energy",
+                "linkedin": "https://www.linkedin.com/in/william-e-946a30112/",
+                "twitter": "",
+                "imagePath": "placeholder.png"
+            }
+        ]
+    }
+]

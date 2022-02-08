@@ -123,7 +123,7 @@ canvas {
   width: 100%;
 }
 .profileDiv {
-  width: 29.3%;
+  width: 21%;
   margin: 10px 2%;
 }
 
@@ -158,9 +158,21 @@ canvas {
   text-decoration: none;
 }
 
-.linkedinLogo {
-  margin-top: 6px;
-  width: 15px;
+
+.teamSocialsDiv{
+  height: 15px;
+  margin-top: 10px;
+}
+.teamLinkLogo {
+  margin: 0px 8px;
+  height: 15px;
+  transition: all 0.6s;
+}
+.teamIcon{
+  height: 100%;
+}
+.teamLinkLogo:hover{
+  opacity: 0.6;
 }
 nav {
   width: 100%;
@@ -311,6 +323,7 @@ a {
 .textPaddingLeft{
   padding-left: 6px;
 }
+
 .icon{
   width: 18px;
 }
