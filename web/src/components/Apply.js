@@ -1,6 +1,7 @@
 import React from "react"; //imports react
 import FadeIn from "react-fade-in";
-import apply from "../imgs/apply.png";
+import apply from "../imgs/apply-min.png";
+import applyDis from "../imgs/applyDis-min.png";
 // import staff from "../imgs/staffPic.png";
 
 class About extends React.Component {
@@ -25,7 +26,7 @@ class About extends React.Component {
                     className="socialLink"
                     style={{ opacity: 0.4, pointerEvents: "none" }}
                   >
-                    <img className="applyImg" src={apply} alt="staffImg" />
+                    <img className="applyImg" src={applyDis} alt="staffImg" />
                   </a>
                 </div>
               </div>
