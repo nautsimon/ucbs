@@ -92,14 +92,7 @@
     {
         "teamTeir": "Advisors",
         "members": [
-            {
-                "name": "Gina Pieters",
-                "subtitle": "Economist",
-                "affiliates": "University of Chicago",
-                "linkedin": "https://www.linkedin.com/in/prof-gina-pieters-6856a894/",
-                "twitter": "https://twitter.com/ProfPieters",
-                "imagePath": "gina.jpg"
-            },
+
             {
                 "name": "Ali Sheikh ",
                 "subtitle": "Principal, Investor",
@@ -107,6 +100,22 @@
                 "linkedin": "https://www.linkedin.com/in/ali-sheikh-19967b13/",
                 "twitter": "https://twitter.com/analyticalali",
                 "imagePath": "placeholder.png"
+            },
+            {
+                "name": "Anthony Zhang ",
+                "subtitle": "Professor, Economist",
+                "affiliates": "Booth School of Business",
+                "linkedin": "https://www.linkedin.com/in/anthony-lee-zhang-2a268a51/",
+                "twitter": "https://twitter.com/AnthonyLeeZhang",
+                "imagePath": "anthony.jpg"
+            },
+            {
+                "name": "Gina Pieters",
+                "subtitle": "Economist",
+                "affiliates": "University of Chicago",
+                "linkedin": "https://www.linkedin.com/in/prof-gina-pieters-6856a894/",
+                "twitter": "https://twitter.com/ProfPieters",
+                "imagePath": "gina.jpg"
             },
             {
                 "name": "Will Eastwick",
