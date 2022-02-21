@@ -6,18 +6,28 @@
         "location": "Zoom",
         "link": "",
         "registrationLink": "https://forms.gle/FeKZ1gFtkRZ8NAV1A",
-        "description": "Register for our first panelist event! Come learn about four UChicago Alumni who have graduated in the last decade and how they have thrived in the blockchain space.",
+        "description": "Register for our first event! Come connect with and learn about four UChicago Alumni and how they have thrived in the blockchain space.",
         "extraDescription": ""
+    },
+    {
+        "name": "UChicago Decentralized #0: Kaesha Freyaldenhoven",
+        "dateFormatted": "02/27/2022",
+        "timeFormatted": "Premiering 11:59pm CT",
+        "location": "Zoom",
+        "link": "",
+        "registrationLink": "https://forms.gle/ZpbPCXaHKxSyCRA76",
+        "description": "Kaesha is currently pursing a law degree at Berkeley Law and is the Chief of Staff at 2 Punks Capital. She is also very familiar with the NFT space!",
+        "extraDescription": "UChicago Decentralized is a interview-style speaker series intended to make the blockchain space more accessible to UChicago students via information and connections."
     },
     {
         "name": "UChicago Decentralized #1: Mitch Mechigian",
         "dateFormatted": "03/01/2022",
-        "timeFormatted": "TBD",
+        "timeFormatted": "Premiering 11:59pm CT",
         "location": "Zoom",
         "link": "",
         "registrationLink": "https://forms.gle/hqAaTEdd66DhJrtb8",
         "description": "Mitch Mechigian is the Chief of Staff at Blockchain Coinvestors & Fifth Era.",
-        "extraDescription": "UChicago Decentralized is a interview-style speaker series intended to be distributed in live stream format and as an audio podcast."
+        "extraDescription": "UChicago Decentralized is a interview-style speaker series intended to make the blockchain space more accessible to UChicago students via information and connections. "
     },
     {
         "name": "Info Session #1",
