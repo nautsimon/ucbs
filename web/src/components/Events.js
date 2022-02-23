@@ -3,6 +3,7 @@ import data from "./events.json";
 import clock from "../imgs/clock.png";
 import location from "../imgs/location.png";
 import FadeIn from "react-fade-in";
+import { NavLink } from "react-router-dom";
 
 const events = data;
 class Team extends React.Component {
@@ -11,6 +12,17 @@ class Team extends React.Component {
       <div className="mainDiv">
         <div className="mainMarginDiv">
           <p className="pageTitle">Events</p>
+          <p>
+            View previous events {" "}
+            <NavLink
+              exact={true}
+              className="eventLink hover"
+              activeClassName="linkActive"
+              to="/previous-events"
+            >
+            here
+            </NavLink>.
+          </p>
           <br />
           <br />
           <br />

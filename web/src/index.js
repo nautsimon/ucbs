@@ -9,6 +9,7 @@ import Nav from "./components/Nav";
 import Apply from "./components/Apply";
 import Team from "./components/Team";
 import Events from "./components/Events";
+import PrevEvents from "./components/PrevEvents";
 import Footer from "./components/Footer";
 ReactDOM.render(
   <Router>
@@ -31,6 +32,11 @@ ReactDOM.render(
       <Route path="/events">
         <Nav />
         <Events />
+        <Footer />
+      </Route>
+      <Route path="/previous-events">
+        <Nav />
+        <PrevEvents />
         <Footer />
       </Route>
       {/* <Route path="/test">
