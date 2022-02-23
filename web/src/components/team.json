@@ -118,6 +118,14 @@
                 "imagePath": "gina.jpg"
             },
             {
+                "name": "Yuki Yuminaga",
+                "subtitle": "Investment Manager",
+                "affiliates": "Fenbushi Capital",
+                "linkedin": "https://www.linkedin.com/in/yuki-yuminaga-024252134/",
+                "twitter": "",
+                "imagePath": "yuki.jpeg"
+            },
+            {
                 "name": "Will Eastwick",
                 "subtitle": "Advisor",
                 "affiliates": "Greenskies Clean Energy",
