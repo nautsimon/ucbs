@@ -14,7 +14,7 @@ const noise = new SimplexNoise();
 class SceneThree extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { popup: true };
     this.start = this.start.bind(this);
     this.stop = this.stop.bind(this);
     this.animate = this.animate.bind(this);
@@ -264,7 +264,9 @@ class SceneThree extends Component {
   renderScene() {
     this.renderer.render(this.scene, this.camera);
   }
-
+  closePopup() {
+    this.setState({ popup: false });
+  }
   render() {
     return (
       <div>
@@ -274,6 +276,42 @@ class SceneThree extends Component {
             this.mount = mount;
           }}
         ></div>
+        <div
+          onClick={() => this.closePopup()}
+          className="popup"
+          style={{
+            display: this.state.popup ? "display" : "none",
+            opacity: this.state.popup ? 1 : 0,
+          }}
+        >
+          <div className="innerPopup">
+            <p className="regularTitle">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ pointerEvents: "all" }}
+                href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
+                className="eventLink hover"
+              >
+                Register for our info sessions.
+              </a>
+            </p>
+            <br />
+            <i>
+              Learn more on our{" "}
+              <NavLink
+                exact={true}
+                style={{ pointerEvents: "all" }}
+                className="eventLink hover"
+                activeClassName="linkActive"
+                to="/apply"
+              >
+                "apply"
+              </NavLink>{" "}
+              page{" "}
+            </i>
+          </div>
+        </div>
         <div className="tempMain">
           <div className="tempCenter">
             <div className="menu">
