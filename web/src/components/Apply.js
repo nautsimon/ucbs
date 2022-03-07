@@ -50,6 +50,8 @@ class About extends React.Component {
                   <a
                     href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
                     className="eventLink hover"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     [REGISTER]
                   </a>
