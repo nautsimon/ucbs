@@ -64,7 +64,7 @@ class About extends React.Component {
                   What is going on the blockchain space? Through public
                   panels/workshops and with UChicago Decentralized, our
                   psuedo-podcast speaker series, we aim to make blockchain
-                  knowledge more accesible to all interested.
+                  knowledge more accessible to all interested.
                 </p>
                 <br/>
                 <p className="regularTitle">
