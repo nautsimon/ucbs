@@ -1,7 +1,6 @@
 import React from "react"; //imports react
 import FadeIn from "react-fade-in";
-import apply from "../imgs/apply-min.png";
-import applyDis from "../imgs/applyDis-min.png";
+import applyDis from "../imgs/apply.png";
 // import staff from "../imgs/staffPic.png";
 
 class About extends React.Component {
@@ -16,7 +15,7 @@ class About extends React.Component {
               <div className="aboutLeft">
                 <p className="regularTitle">Apply to our Spring 2022 cohort </p>
                 <p className="regularSubTitle">
-                  Applications will be released on 03/08/22
+                  Applications will be released on 03/11/22
                 </p>
                 <div className="applyImgDiv">
                   <a
@@ -31,22 +30,36 @@ class About extends React.Component {
                 </div>
               </div>
               <div className="aboutRight">
-                <p className="regularTitle">
-                  Got blockchain knowledge already?{" "}
+                <p className="regularTitle">Timeline</p>
+                <p className="regularSubTitle">
+                  - 3/11/22: Applications released (1159PM CT)
                 </p>
                 <p className="regularSubTitle">
-                  We are looking for a few more people to join our staff!
-                </p>
-                <div className="applyImgDiv">
+                  - 3/11/22: Info Session #1 (7PM CT){" "}
                   <a
-                    href="https://forms.gle/kJcWa2sMZ8M3s9XA6"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="socialLink"
+                    href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
+                    className="eventLink hover"
                   >
-                    <img className="applyImg" src={apply} alt="staffImg" />
+                    [REGISTER]
                   </a>
-                </div>
+                </p>
+                <p className="regularSubTitle">
+                  - 3/30/22: Info Session #2 (7PM CT){" "}
+                  <a
+                    href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
+                    className="eventLink hover"
+                  >
+                    [REGISTER]
+                  </a>
+                </p>
+                <p className="regularSubTitle">
+                  - 4/01/22: Applications close (1159PM CT)
+                </p>
+                <p className="regularSubTitle">
+                  - 4/06/22: Applicants notified (1159PM CT)
+                </p>
               </div>
             </div>
           </FadeIn>

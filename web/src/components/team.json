@@ -51,20 +51,20 @@
                 "imagePath": "gwen.jpg"
             },
             {
-                "name": "Nikko Wheeler",
-                "affiliates": "USN",
-                "subtitle": "UChicago 25",
-                "linkedin": "",
-                "twitter": "",
-                "imagePath": "nikko.jpg"
-            },
-            {
                 "name": "Lexington Brill",
                 "affiliates": "UXD, Amazon",
                 "subtitle": "UChicago 23",
                 "linkedin": "https://www.linkedin.com/in/lexingtonbrill/",
                 "twitter": "https://twitter.com/CryptoMaxPlanck",
                 "imagePath": "lex.jpg"
+            },
+            {
+                "name": "Sara Roman",
+                "affiliates": "Polsky, HBO, Disney",
+                "subtitle": "UChicago 24",
+                "linkedin": "",
+                "twitter": "",
+                "imagePath": "sara.jpeg"
             }
         ]
     },
@@ -80,12 +80,28 @@
                 "imagePath": "addharsh.jpg"
             },
             {
-                "name": "Sara Roman",
-                "affiliates": "Polsky, HBO, Disney",
-                "subtitle": "UChicago 24",
+                "name": "Madhav Vats",
+                "affiliates": "Alchemy",
+                "subtitle": "UChicago 23",
+                "linkedin": "https://www.linkedin.com/in/madhavvats/",
+                "twitter": "",
+                "imagePath": "madhav.jpeg"
+            },
+            {
+                "name": "Emi Andere",
+                "affiliates": "Glip",
+                "subtitle": "UChicago 25",
+                "linkedin": "https://www.linkedin.com/in/emi-andere/",
+                "twitter": "https://twitter.com/technoabsurdist",
+                "imagePath": "emi.jpg"
+            },
+            {
+                "name": "Nikko Wheeler",
+                "affiliates": "USN",
+                "subtitle": "UChicago 25",
                 "linkedin": "",
                 "twitter": "",
-                "imagePath": "sara.jpeg"
+                "imagePath": "nikko.jpg"
             }
         ]
     },

@@ -1,52 +1,22 @@
 [
     {
-        "name": "UChicago Decentralized #0: Kaesha Freyaldenhoven",
-        "dateFormatted": "02/27/2022",
-        "timeFormatted": "Premiering 11:59pm CT",
-        "location": "Zoom",
-        "link": "",
-        "registrationLink": "https://forms.gle/ZpbPCXaHKxSyCRA76",
-        "description": "Kaesha is currently pursing a law degree at Berkeley Law and is the Chief of Staff at 2 Punks Capital. She is also very familiar with the NFT space!",
-        "extraDescription": "UChicago Decentralized is a interview-style speaker series intended to make the blockchain space more accessible to UChicago students via information and connections."
-    },
-    {
-        "name": "UChicago Decentralized #1: Mitch Mechigian",
-        "dateFormatted": "03/01/2022",
-        "timeFormatted": "Premiering 11:59pm CT",
-        "location": "Zoom",
-        "link": "",
-        "registrationLink": "https://forms.gle/hqAaTEdd66DhJrtb8",
-        "description": "Mitch Mechigian is the Chief of Staff at Blockchain Coinvestors & Fifth Era.",
-        "extraDescription": "UChicago Decentralized is a interview-style speaker series intended to make the blockchain space more accessible to UChicago students via information and connections. "
-    },
-    {
         "name": "Info Session #1",
-        "dateFormatted": "03/08/2022",
+        "dateFormatted": "03/11/2022",
         "timeFormatted": "7pm - 8pm CT",
         "location": "Zoom",
         "link": "",
-        "registrationLink": "https://forms.gle/LaS7aQzJjYTxSnex6",
+        "registrationLink": "https://rmerxlvsqsk.typeform.com/to/IrbTJnxo",
         "description": "Come learn more about our organization, applications, and what we have planned for spring quarter! (all registrants will receive a recording)",
         "extraDescription": ""
     },
     {
         "name": "Info Session #2",
-        "dateFormatted": "03/15/2022",
+        "dateFormatted": "03/30/2022",
         "timeFormatted": "7pm - 8pm CT",
-        "location": "Zoom",
+        "location": "TBD",
         "link": "",
-        "registrationLink": "https://forms.gle/LaS7aQzJjYTxSnex6",
+        "registrationLink": "https://rmerxlvsqsk.typeform.com/to/IrbTJnxo",
         "description": "Come learn more about our organization, applications, and what we have planned for spring quarter! (all registrants will receive a recording)",
-        "extraDescription": ""
-    },
-    {
-        "name": "Application Office Hours",
-        "dateFormatted": "03/22/2022",
-        "timeFormatted": "3pm - 6pm CT",
-        "location": "Zoom",
-        "link": "",
-        "registrationLink": "https://forms.gle/9herh7g6pEfqEqXp7",
-        "description": "Come in to ask any last minute questions about your application!",
         "extraDescription": ""
     }
 ]

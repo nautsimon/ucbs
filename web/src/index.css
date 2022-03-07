@@ -16,6 +16,26 @@ footer{
   flex-direction: column;
 
 }
+.popup{
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(59, 59, 59, 0.404);
+}
+.innerPopup{
+  pointer-events: none;
+  width: 40vw;
+  height: 30vh;
+  margin: 35vh 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  color: white;
+  z-index: 2002;
+}
 .noMargin{
   margin: 0pc
 }
@@ -380,7 +400,11 @@ a {
   transition: all 0.6s;
 }
 .eventImg:hover{
-  opacity: 0.8;
+  opacity: 0.4;
+}
+.rowwrap{
+  display: flex;
+  flex-direction: row;
 }
 .eventImgDiv{
   width: 31.3%;
@@ -434,6 +458,12 @@ a {
   .verticalLine{
     display: none;
     visibility: hidden;
+  }
+  .innerPopup{
+    pointer-events: none;
+    width: 96vw;
+    height: 60vh;
+    margin: 20vh 2vw;
   }
 }
 

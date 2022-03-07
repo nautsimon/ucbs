@@ -1,7 +1,17 @@
 [
     {
+        "name": "UChicago Decentralized #1: Mitch Mechigian, VCs in the blockchain space",
+        "youtubeLink": "https://youtu.be/sKJcRcwWds8",
+        "imagePath": "ud1.png"
+    },
+    {
+        "name": "UChicago Decentralized #0: Kaesha Freyaldenhoven, NFTs, Law, and more!",
+        "youtubeLink": "https://youtu.be/tcJzv3qg1q8",
+        "imagePath": "ud0.png"
+    },
+    {
         "name": "UChicago Alumni in Blockchain Panel",
         "youtubeLink": "https://www.youtube.com/watch?v=t7cfqfjf4GY",
-        "imagePath": "panel1.jpg"
+        "imagePath": "alumnip1.png"
     }
 ]
