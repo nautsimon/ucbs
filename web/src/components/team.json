@@ -1,6 +1,6 @@
 [
     {
-        "teamTeir": "Board of Directors",
+        "teamTeir": "Team",
         "members": [
             {
                 "name": "Elliot Paschal",
@@ -9,6 +9,14 @@
                 "linkedin": "https://www.linkedin.com/in/elliot-paschal/",
                 "twitter": "https://twitter.com/elliot_paschal",
                 "imagePath": "elliot.jpg"
+            },
+            {
+                "name": "Madhav Vats",
+                "affiliates": "Alchemy",
+                "subtitle": "UChicago 23",
+                "linkedin": "https://www.linkedin.com/in/madhavvats/",
+                "twitter": "",
+                "imagePath": "madhav.jpeg"
             },
             {
                 "name": "Simon Mahns",
@@ -65,12 +73,7 @@
                 "linkedin": "",
                 "twitter": "",
                 "imagePath": "sara.jpeg"
-            }
-        ]
-    },
-    {
-        "teamTeir": "Officers",
-        "members": [
+            },
             {
                 "name": "Aadharsh Pannirselvam",
                 "affiliates": "Galaxy Digital",
@@ -79,14 +82,7 @@
                 "twitter": "https://twitter.com/aadharsh2010",
                 "imagePath": "addharsh.jpg"
             },
-            {
-                "name": "Madhav Vats",
-                "affiliates": "Alchemy",
-                "subtitle": "UChicago 23",
-                "linkedin": "https://www.linkedin.com/in/madhavvats/",
-                "twitter": "",
-                "imagePath": "madhav.jpeg"
-            },
+           
             {
                 "name": "Emi Andere",
                 "affiliates": "Glip",
@@ -108,7 +104,6 @@
     {
         "teamTeir": "Advisors",
         "members": [
-
             {
                 "name": "Ali Sheikh ",
                 "subtitle": "Principal, Investor",
