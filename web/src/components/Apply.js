@@ -32,10 +32,10 @@ class About extends React.Component {
               <div className="aboutRight">
                 <p className="regularTitle">Timeline</p>
                 <p className="regularSubTitle">
-                  - 3/11/22: Applications released (1159PM CT)
+                  - 3/11/22 11:59PM CT: Applications released
                 </p>
                 <p className="regularSubTitle">
-                  - 3/11/22: Info Session #1 (7PM CT){" "}
+                  - 3/11/22 07:00PM CT: Info Session #1{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -46,7 +46,10 @@ class About extends React.Component {
                   </a>
                 </p>
                 <p className="regularSubTitle">
-                  - 3/30/22: Info Session #2 (7PM CT){" "}
+                  - 3/29/22 06:00PM CT: Diversity & Inclusion workshop
+                </p>
+                <p className="regularSubTitle">
+                  - 3/30/22 07:00PM CT: Info Session #2{" "}
                   <a
                     href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
                     className="eventLink hover"
@@ -57,10 +60,10 @@ class About extends React.Component {
                   </a>
                 </p>
                 <p className="regularSubTitle">
-                  - 4/01/22: Applications close (1159PM CT)
+                  - 4/01/22 11:59PM CT: Applications close
                 </p>
                 <p className="regularSubTitle">
-                  - 4/06/22: Applicants notified (1159PM CT)
+                  - 4/06/22 11:59PM CT: Applicants notified
                 </p>
               </div>
             </div>
