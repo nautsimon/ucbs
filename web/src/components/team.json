@@ -67,12 +67,12 @@
                 "imagePath": "james.jpg"
             },
             {
-                "name": "Luke Rosa",
-                "affiliates": "Passport Labs",
-                "subtitle": "UChicago 24",
-                "linkedin": "https://www.linkedin.com/in/lucas-rosa-4a2717160/",
-                "twitter": "https://twitter.com/fudpotato",
-                "imagePath": "luke.jpg"
+                "name": "Emi Andere",
+                "affiliates": "Glip",
+                "subtitle": "UChicago 25",
+                "linkedin": "https://www.linkedin.com/in/emi-andere/",
+                "twitter": "https://twitter.com/technoabsurdist",
+                "imagePath": "emi.jpg"
             },
             {
                 "name": "Luke Rosa",
@@ -81,6 +81,14 @@
                 "linkedin": "https://www.linkedin.com/in/lucas-rosa-4a2717160/",
                 "twitter": "https://twitter.com/fudpotato",
                 "imagePath": "luke.jpg"
+            },
+            {
+                "name": "Nathan Russel",
+                "affiliates": "Autograph",
+                "subtitle": "UChicago 25",
+                "linkedin": "https://www.linkedin.com/in/nathanrussell3/",
+                "twitter": "",
+                "imagePath": "nathan.jpeg"
             },
            
             {
@@ -101,14 +109,7 @@
                 "imagePath": "addharsh.jpg"
             },
            
-            {
-                "name": "Emi Andere",
-                "affiliates": "Glip",
-                "subtitle": "UChicago 25",
-                "linkedin": "https://www.linkedin.com/in/emi-andere/",
-                "twitter": "https://twitter.com/technoabsurdist",
-                "imagePath": "emi.jpg"
-            },
+
             {
                 "name": "Nikko Wheeler",
                 "affiliates": "USN",
