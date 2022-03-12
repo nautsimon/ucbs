@@ -290,15 +290,15 @@ class SceneThree extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ pointerEvents: "all" }}
-                href="https://uchicago.zoom.us/j/99225740825?pwd=S2VkU3BaeFEvN0UxZC9jSXNweTZyUT09"
+                href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
                 className="eventLink hover"
               >
-                Join our first info session (7PM CT).
+                Register for our second info session.
               </a>
             </p>
             <br />
             <i>
-              Register for our second info session {" "}
+              Learn more on our {" "}
               <NavLink
                 exact={true}
                 style={{ pointerEvents: "all" }}

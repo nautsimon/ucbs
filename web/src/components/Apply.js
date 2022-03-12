@@ -14,16 +14,13 @@ class About extends React.Component {
             <div className="row">
               <div className="aboutLeft">
                 <p className="regularTitle">Apply to our Spring 2022 cohort </p>
-                <p className="regularSubTitle">
-                  Applications will be released on 03/11/22
-                </p>
+
                 <div className="applyImgDiv">
                   <a
-                    href="https://www.instagram.com/blockchainchicago/"
+                    href="https://forms.gle/VPm7bpKkQgUhRSHc7"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="socialLink"
-                    style={{ opacity: 0.4, pointerEvents: "none" }}
                   >
                     <img className="applyImg" src={applyDis} alt="staffImg" />
                   </a>
@@ -35,15 +32,8 @@ class About extends React.Component {
                   - 3/11/22 11:59PM CT: Applications released
                 </p>
                 <p className="regularSubTitle">
-                  - 3/11/22 07:00PM CT: Info Session #1{" "}
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://uchicago.zoom.us/j/99225740825?pwd=S2VkU3BaeFEvN0UxZC9jSXNweTZyUT09"
-                    className="eventLink hover"
-                  >
-                    [JOIN]
-                  </a>
+                  - 3/11/22 07:00PM CT: Info Session #1
+                
                 </p>
                 <p className="regularSubTitle">
                   - 3/29/22 06:00PM CT: Diversity & Inclusion workshop
