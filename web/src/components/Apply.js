@@ -39,10 +39,10 @@ class About extends React.Component {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
+                    href="https://uchicago.zoom.us/j/99225740825?pwd=S2VkU3BaeFEvN0UxZC9jSXNweTZyUT09"
                     className="eventLink hover"
                   >
-                    [REGISTER]
+                    [JOIN]
                   </a>
                 </p>
                 <p className="regularSubTitle">
