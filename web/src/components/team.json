@@ -19,6 +19,14 @@
                 "imagePath": "madhav.jpeg"
             },
             {
+                "name": "Sara Roman",
+                "affiliates": "Polsky, HBO, Disney",
+                "subtitle": "UChicago 24",
+                "linkedin": "",
+                "twitter": "",
+                "imagePath": "sara.jpeg"
+            },
+            {
                 "name": "Simon Mahns",
                 "affiliates": "Meta, Globus Labs, CSIL",
                 "subtitle": "UChicago 23",
@@ -27,12 +35,28 @@
                 "imagePath": "simon.jpg"
             },
             {
+                "name": "Richa Pillai",
+                "affiliates": "SAP NS2",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/richa-pillai-627527181/",
+                "twitter": "",
+                "imagePath": "placeholder.png"
+            },
+            {
                 "name": "Timothy Clifford",
                 "affiliates": "Blockchain Coinvestors & Fifth Era",
                 "subtitle": "UChicago 24",
                 "linkedin": "https://www.linkedin.com/in/timothy-clifford-125141211/",
                 "twitter": "",
                 "imagePath": "tim.jpg"
+            },
+            {
+                "name": "Gwyneth Howell",
+                "affiliates": "CPGD",
+                "subtitle": "UChicago 24",
+                "linkedin": "",
+                "twitter": "",
+                "imagePath": "gwen.jpg"
             },
             {
                 "name": "James Slattery",
@@ -51,13 +75,14 @@
                 "imagePath": "luke.jpg"
             },
             {
-                "name": "Gwyneth Howell",
-                "affiliates": "CPGD",
+                "name": "Luke Rosa",
+                "affiliates": "Passport Labs",
                 "subtitle": "UChicago 24",
-                "linkedin": "",
-                "twitter": "",
-                "imagePath": "gwen.jpg"
+                "linkedin": "https://www.linkedin.com/in/lucas-rosa-4a2717160/",
+                "twitter": "https://twitter.com/fudpotato",
+                "imagePath": "luke.jpg"
             },
+           
             {
                 "name": "Lexington Brill",
                 "affiliates": "UXD, Amazon",
@@ -66,14 +91,7 @@
                 "twitter": "https://twitter.com/CryptoMaxPlanck",
                 "imagePath": "lex.jpg"
             },
-            {
-                "name": "Sara Roman",
-                "affiliates": "Polsky, HBO, Disney",
-                "subtitle": "UChicago 24",
-                "linkedin": "",
-                "twitter": "",
-                "imagePath": "sara.jpeg"
-            },
+          
             {
                 "name": "Aadharsh Pannirselvam",
                 "affiliates": "Galaxy Digital",
