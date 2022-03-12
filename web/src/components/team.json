@@ -11,14 +11,6 @@
                 "imagePath": "elliot.jpg"
             },
             {
-                "name": "Madhav Vats",
-                "affiliates": "Alchemy",
-                "subtitle": "UChicago 23",
-                "linkedin": "https://www.linkedin.com/in/madhavvats/",
-                "twitter": "",
-                "imagePath": "madhav.jpeg"
-            },
-            {
                 "name": "Sara Roman",
                 "affiliates": "Polsky, HBO, Disney",
                 "subtitle": "UChicago 24",
@@ -57,6 +49,14 @@
                 "linkedin": "",
                 "twitter": "",
                 "imagePath": "gwen.jpg"
+            },
+            {
+                "name": "Madhav Vats",
+                "affiliates": "Alchemy",
+                "subtitle": "UChicago 23",
+                "linkedin": "https://www.linkedin.com/in/madhavvats/",
+                "twitter": "",
+                "imagePath": "madhav.jpeg"
             },
             {
                 "name": "James Slattery",
@@ -153,15 +153,16 @@
                 "linkedin": "https://www.linkedin.com/in/yuki-yuminaga-024252134/",
                 "twitter": "",
                 "imagePath": "yuki.jpeg"
-            },
-            {
-                "name": "Will Eastwick",
-                "subtitle": "Advisor",
-                "affiliates": "Greenskies Clean Energy",
-                "linkedin": "https://www.linkedin.com/in/william-e-946a30112/",
-                "twitter": "",
-                "imagePath": "placeholder.png"
             }
+            // },
+            // {
+            //     "name": "Will Eastwick",
+            //     "subtitle": "Advisor",
+            //     "affiliates": "Greenskies Clean Energy",
+            //     "linkedin": "https://www.linkedin.com/in/william-e-946a30112/",
+            //     "twitter": "",
+            //     "imagePath": "placeholder.png"
+            // }
         ]
     }
 ]

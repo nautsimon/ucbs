@@ -35,9 +35,9 @@ class About extends React.Component {
                   - 3/11/22 07:00PM CT: Info Session #1
                 
                 </p>
-                <p className="regularSubTitle">
+                {/* <p className="regularSubTitle">
                   - 3/29/22 06:00PM CT: Diversity & Inclusion workshop
-                </p>
+                </p> */}
                 <p className="regularSubTitle">
                   - 3/30/22 07:00PM CT: Info Session #2{" "}
                   <a
