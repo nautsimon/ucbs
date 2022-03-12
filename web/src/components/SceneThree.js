@@ -290,15 +290,15 @@ class SceneThree extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ pointerEvents: "all" }}
-                href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
+                href="https://forms.gle/VPm7bpKkQgUhRSHc7"
                 className="eventLink hover"
               >
-                Register for our second info session.
+                Apply for our Spring '22 Cohort
               </a>
             </p>
             <br />
             <i>
-              Learn more on our {" "}
+              Register for our info sessions on our {" "}
               <NavLink
                 exact={true}
                 style={{ pointerEvents: "all" }}
