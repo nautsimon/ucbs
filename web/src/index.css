@@ -487,6 +487,9 @@ a {
     font-size: 11px;
     padding: 4px 5px;
   }
+  .applyImg{
+    width: 100%;
+  }
 
   nav {
     margin: 0px;

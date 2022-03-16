@@ -22,18 +22,26 @@ class About extends React.Component {
                   - 3/11/22 07:00PM CT: Info Session #1
                 
                 </p>
-                {/* <p className="regularSubTitle">
-                  - 3/29/22 06:00PM CT: Diversity & Inclusion workshop
-                </p> */}
                 <p className="regularSubTitle">
-                  - 3/30/22 07:00PM CT: Info Session #2{" "}
+                  - 3/22/22 04:00PM CT: {" "}
+                  <a
+                    href="https://forms.gle/fjg1xxNRHoPm2md68"
+                    className="eventLink hover"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Application Office Hours
+                  </a>
+                </p>
+                <p className="regularSubTitle">
+                  - 3/30/22 07:00PM CT: {" "}
                   <a
                     href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
                     className="eventLink hover"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    [REGISTER]
+                    Info Session #2
                   </a>
                 </p>
                 <p className="regularSubTitle">

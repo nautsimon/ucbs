@@ -31,12 +31,12 @@ class About extends React.Component {
                 <br />
                 <p className="regularTitle">Spring Cohort 2022</p>
                 <p>
-                  Beginning in Spring of 2022 we will be providing an 9-week
+                  Beginning in Spring of 2022 we will be providing an 8-week
                   educational program covering various areas of knowledge in the
                   blockchain space. Our curriculum, which was developed with
                   gracious support from other collegiate blockchain clubs, will
                   delve into entrepreneurship, economics, finance, computer
-                  science/development, and more. Learn more about at our{" "}
+                  science/development, and more. Apply at our{" "}
                   <NavLink
                     className="regLinkText "
                     activeClassName="linkActive"
@@ -44,17 +44,7 @@ class About extends React.Component {
                   >
                     <span className="regLinkTextSpan">apply</span>
                   </NavLink>{" "}
-                  page and at our{" "}
-                  <NavLink
-                    className="regLinkText "
-                    activeClassName="linkActive"
-                    to="/events"
-                  >
-                    <span className="regLinkTextSpan">
-                      upcoming info sessions
-                    </span>
-                  </NavLink>
-                  .
+                  page.
                 </p>
                 <br />
                 <p className="regularTitle">
