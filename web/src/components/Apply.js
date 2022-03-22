@@ -23,15 +23,7 @@ class About extends React.Component {
                 
                 </p>
                 <p className="regularSubTitle">
-                  - 3/22/22 04:00PM CT: {" "}
-                  <a
-                    href="https://forms.gle/fjg1xxNRHoPm2md68"
-                    className="eventLink hover"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Application Office Hours
-                  </a>
+                  - 3/22/22 04:00PM CT: Application Office Hours
                 </p>
                 <p className="regularSubTitle">
                   - 3/30/22 07:00PM CT: {" "}
