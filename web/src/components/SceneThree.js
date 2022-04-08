@@ -14,7 +14,7 @@ const noise = new SimplexNoise();
 class SceneThree extends Component {
   constructor(props) {
     super(props);
-    this.state = { popup: true };
+    this.state = { popup: false };
     this.start = this.start.bind(this);
     this.stop = this.stop.bind(this);
     this.animate = this.animate.bind(this);

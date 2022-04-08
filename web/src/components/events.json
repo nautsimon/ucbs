@@ -1,22 +1,3 @@
 [
-    {
-        "name": "Application Office Hours",
-        "dateFormatted": "03/22/2022",
-        "timeFormatted": "4pm - 6pm CT",
-        "location": "Zoom",
-        "link": "",
-        "registrationLink": "https://forms.gle/fjg1xxNRHoPm2md68",
-        "description": "Office hours to learn more about our application process!",
-        "extraDescription": ""
-    },
-    {
-        "name": "Info Session #2",
-        "dateFormatted": "03/30/2022",
-        "timeFormatted": "7pm - 8pm CT",
-        "location": "TBD",
-        "link": "",
-        "registrationLink": "https://rmerxlvsqsk.typeform.com/to/IrbTJnxo",
-        "description": "Come learn more about our organization, applications, and what we have planned for spring quarter! (all registrants will receive a recording)",
-        "extraDescription": ""
-    }
+
 ]

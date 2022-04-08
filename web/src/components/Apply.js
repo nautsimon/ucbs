@@ -8,7 +8,7 @@ class About extends React.Component {
     return (
       <div className="mainDiv">
         <div className="mainMarginDiv">
-          <p className="pageTitle">Apply</p>
+          <p className="pageTitle">Applications Closed</p>
           <br />
           <FadeIn transitionDuration={1100}>
             <div className="row">
@@ -26,15 +26,8 @@ class About extends React.Component {
                   - 3/22/22 04:00PM CT: Application Office Hours
                 </p>
                 <p className="regularSubTitle">
-                  - 3/30/22 07:00PM CT: {" "}
-                  <a
-                    href="https://rmerxlvsqsk.typeform.com/to/IrbTJnxo"
-                    className="eventLink hover"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Info Session #2
-                  </a>
+                  - 3/30/22 07:00PM CT: Info Session #2
+        
                 </p>
                 <p className="regularSubTitle">
                   - 4/01/22 11:59PM CT: Applications close
@@ -53,6 +46,7 @@ class About extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="socialLink"
+                    style={{pointerEvents:"none", opacity: 0.5}}
                   >
                     <img className="applyImg" src={applyDis} alt="staffImg" />
                   </a>
