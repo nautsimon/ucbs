@@ -277,19 +277,22 @@ class SceneThree extends Component {
 
         <div className="tempMain ">
           <div className="tempCenterBackground">
-          <div className="tempCenter">
-            <div className="logoOuterDivCertificate">
-              <img src={logo} alt="logo" className="logoStylingCertificate" />
-            </div>
-            <p className="mainTitleCertificateLg">Certificate of Completion</p>
+            <div className="tempCenter">
+              <div className="logoOuterDivCertificate">
+                <img src={logo} alt="logo" className="logoStylingCertificate" />
+              </div>
+              <p className="mainTitleCertificateLg">
+                Certificate of Completion
+              </p>
 
-            <p className="width400">
-              This certifies that <b>{this.props.name}</b> completed the
-              requirements to graduate from the Blockchain Chicago Spring '22
-              cohort.
-            </p>
+              <p className="width400">
+                This certifies that <b>{this.props.name}</b> completed the
+                requirements to graduate from the Blockchain Chicago Spring '22
+                cohort.
+              </p>
+            </div>
           </div>
-        </div></div>
+        </div>
       </div>
     );
   }
