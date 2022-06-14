@@ -4,6 +4,8 @@ import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import SceneThree from "./components/SceneThree";
 import SceneThree2 from "./components/SceneThree";
+import Graduates from "./components/Graduates";
+
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Apply from "./components/Apply";
@@ -45,6 +47,9 @@ ReactDOM.render(
       <Route path="/test2">
         <SceneThree2 />
       </Route> */}
+      <Route path="/graduates/:address" >
+        <Graduates />
+      </Route>
       <Route path="/">
         <SceneThree2 />
       </Route>

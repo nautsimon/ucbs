@@ -1,0 +1,37 @@
+.mainTitleCertificate {
+  color: white;
+  font-weight: 800;
+  font-size: 23px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainTitleCertificateLg {
+  font-size: 43px;
+  font-weight: 200;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -20px;
+  margin-bottom: -12px;
+  border-bottom: solid 1px white;
+}
+.logoOuterDivCertificate {
+  width: 150px;
+  margin-top: -100px;
+}
+
+.logoStylingCertificate {
+  width: 100%;
+}
+.width400 {
+  width: 400px;
+}
+
+.tempCenterBackground{
+    opacity: 0.8;
+    background: black;
+    border-radius: 10px;
+    padding: 0px 50px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}

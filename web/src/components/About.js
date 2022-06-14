@@ -29,7 +29,7 @@ class About extends React.Component {
                   educational pursuits.
                 </p>
                 <br />
-                <p className="regularTitle">Spring Cohort 2022</p>
+                {/* <p className="regularTitle">Spring Cohort 2022</p>
                 <p>
                   Beginning in Spring of 2022 we will be providing an 7-week
                   educational program covering various areas of knowledge in the
@@ -48,7 +48,7 @@ class About extends React.Component {
                   psuedo-podcast speaker series, we aim to make blockchain
                   knowledge more accessible to all interested.
                 </p>
-                <br/>
+                <br/> */}
                 <p className="regularTitle">
                  Contact Us
                 </p>
