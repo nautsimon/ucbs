@@ -8,36 +8,35 @@ class About extends React.Component {
     return (
       <div className="mainDiv">
         <div className="mainMarginDiv">
-          <p className="pageTitle">Applications Closed</p>
+          <p className="pageTitle">Applications Opening Soon</p>
           <br />
           <FadeIn transitionDuration={1100}>
             <div className="row">
               <div className="aboutLeft">
                 <br/>
-              <p className="regularTitle">Spring Recruitment Timeline</p>
+              <p className="regularTitle">Autumn 2022 Recruitment Timeline</p>
+              <br /> 
                 <p className="regularSubTitle">
-                  - 3/11/22 11:59PM CT: Applications released
+                  - Tuesday, September 27th, 2022: Applications released
                 </p>
                 <p className="regularSubTitle">
-                  - 3/11/22 07:00PM CT: Info Session #1
-                
+                  - Thursday, September 29th, 2022: Info Session #1
                 </p>
                 <p className="regularSubTitle">
-                  - 3/22/22 04:00PM CT: Application Office Hours
+                  - Monday, October 3rd, 2022: Info session #2
                 </p>
                 <p className="regularSubTitle">
-                  - 3/30/22 07:00PM CT: Info Session #2
-        
+                  - Tuesday, October 4th, 2022: Applications close
                 </p>
                 <p className="regularSubTitle">
-                  - 4/01/22 11:59PM CT: Applications close
+                  - Tuesday, October 8th - 10th, 2022: Interviews
                 </p>
                 <p className="regularSubTitle">
-                  - 4/06/22 11:59PM CT: Applicants notified
+                  - Wednesday, October 11th: Applicants notified
                 </p>
                 {/* <p className="regularTitle">Apply to our Spring 2022 cohort </p> */}
-
-               
+                <br /> 
+                <br /> 
               </div>
               <div className="aboutRight">
               <div className="applyImgDiv">
