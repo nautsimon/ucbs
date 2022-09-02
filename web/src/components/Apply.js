@@ -14,7 +14,7 @@ class About extends React.Component {
             <div className="row">
               <div className="aboutLeft">
                 <br/>
-              <p className="regularTitle">Autumn 2022 Recruitment Timeline</p>
+              <p className="regularTitle">Fall Quarter 2022 Recruitment Timeline</p>
               <br /> 
                 <p className="regularSubTitle">
                   - Tuesday, September 27th, 2022: Applications released

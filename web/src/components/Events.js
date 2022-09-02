@@ -23,6 +23,9 @@ class Team extends React.Component {
             here
             </NavLink>.
           </p>
+          <p id="eventsoon" className="centerRow">
+            More events coming soon.
+          </p>
           <br />
           <br />
           <br />
