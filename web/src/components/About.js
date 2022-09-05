@@ -26,19 +26,11 @@ class About extends React.Component {
                   Organization) at the University of Chicago. We aim to
                   facilitate an environment where students and enthusiasts are
                   empowered to engage in blockchain related entrepreneurial and
-                  educational pursuits.
+                  educational pursuits by being actively involved in solving real-world
+                  problems through computer science/development, economics, finance and more.
                 </p>
                 <br />
-                {/* <p className="regularTitle">Spring Cohort 2022</p>
-                <p>
-                  Beginning in Spring of 2022 we will be providing an 7-week
-                  educational program covering various areas of knowledge in the
-                  blockchain space. Our curriculum, which was developed with
-                  gracious support from other collegiate blockchain clubs, will
-                  delve into entrepreneurship, economics, finance, computer
-                  science/development, and more. Applications are currently closed.
-                </p>
-                <br />
+                {/*
                 <p className="regularTitle">
                   UChicago Decentralized and Events
                 </p>

@@ -107,7 +107,16 @@ body {
   flex-wrap: wrap;
 
 }
-
+.middleAnnouncement {
+  font-size: 20px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#eventsoon{
+  font-size: 25px; 
+  margin-top: 15%;
+}
 canvas {
   height: 100%;
   width: 100%;
@@ -122,10 +131,11 @@ canvas {
 }
 .pageTitle {
   font-size: 50pt;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px;
   margin-top: -10px;
 }
+
 .regularTitle {
   font-size:20pt;
   font-weight: 300;
@@ -133,8 +143,10 @@ canvas {
 }
 .regularSubTitle {
   font-size:16pt;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px;
+  margin-left: 10px; 
+  margin-bottom: 10px; 
 }
 .row {
   display: flex;

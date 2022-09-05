@@ -4,23 +4,15 @@
         "members": [
             {
                 "name": "Elliot Paschal",
-                "affiliates": "Juicebox DAO, UMich Research",
+                "affiliates": "SW7 Group, Juicebox DAO, Chicago DAO",
                 "subtitle": "UChicago 24",
                 "linkedin": "https://www.linkedin.com/in/elliot-paschal/",
                 "twitter": "https://twitter.com/elliot_paschal",
                 "imagePath": "elliot.jpg"
             },
             {
-                "name": "Sara Roman",
-                "affiliates": "Polsky, HBO, Disney",
-                "subtitle": "UChicago 24",
-                "linkedin": "",
-                "twitter": "",
-                "imagePath": "sara.jpeg"
-            },
-            {
                 "name": "Simon Mahns",
-                "affiliates": "Meta, Globus Labs, CSIL",
+                "affiliates": "Meta, Globus Labs, CSIL, Chicago DAO",
                 "subtitle": "UChicago 23",
                 "linkedin": "https://www.linkedin.com/in/simonmahns/",
                 "twitter": "https://twitter.com/simonmahns",
@@ -28,7 +20,7 @@
             },
             {
                 "name": "Richa Pillai",
-                "affiliates": "SAP NS2",
+                "affiliates": "Diffuse Inc, SAP NS2",
                 "subtitle": "UChicago 24",
                 "linkedin": "https://www.linkedin.com/in/richa-pillai-627527181/",
                 "twitter": "",
@@ -36,23 +28,15 @@
             },
             {
                 "name": "Timothy Clifford",
-                "affiliates": "Blockchain Coinvestors & Fifth Era",
+                "affiliates": "Blockchain Coinvestors & Fifth Era, Chicago DAO",
                 "subtitle": "UChicago 24",
                 "linkedin": "https://www.linkedin.com/in/timothy-clifford-125141211/",
                 "twitter": "",
                 "imagePath": "tim.jpg"
             },
             {
-                "name": "Gwyneth Howell",
-                "affiliates": "CPGD",
-                "subtitle": "UChicago 24",
-                "linkedin": "",
-                "twitter": "",
-                "imagePath": "gwen.jpg"
-            },
-            {
                 "name": "Madhav Vats",
-                "affiliates": "Alchemy",
+                "affiliates": "Crowdstrike, Alchemy, Chicago DAO",
                 "subtitle": "UChicago 23",
                 "linkedin": "https://www.linkedin.com/in/madhavvats/",
                 "twitter": "",
@@ -60,7 +44,7 @@
             },
             {
                 "name": "Emi Andere",
-                "affiliates": "Glip",
+                "affiliates": "Impossible Finance, Glip",
                 "subtitle": "UChicago 25",
                 "linkedin": "https://www.linkedin.com/in/emi-andere/",
                 "twitter": "https://twitter.com/technoabsurdist",
@@ -68,7 +52,7 @@
             },
             {
                 "name": "Luke Rosa",
-                "affiliates": "Passport Labs",
+                "affiliates": "Sei Labs, Passport Labs",
                 "subtitle": "UChicago 24",
                 "linkedin": "https://www.linkedin.com/in/lucas-rosa-4a2717160/",
                 "twitter": "https://twitter.com/fudpotato",
@@ -76,7 +60,7 @@
             },
             {
                 "name": "Nathan Russel",
-                "affiliates": "Autograph",
+                "affiliates": "Pantera Capital, Autograph",
                 "subtitle": "UChicago 25",
                 "linkedin": "https://www.linkedin.com/in/nathanrussell3/",
                 "twitter": "",
@@ -85,7 +69,7 @@
            
             {
                 "name": "Lexington Brill",
-                "affiliates": "UXD, Amazon",
+                "affiliates": "Synapse, UXD, Amazon, Chicago DAO",
                 "subtitle": "UChicago 23",
                 "linkedin": "https://www.linkedin.com/in/lexingtonbrill/",
                 "twitter": "https://twitter.com/CryptoMaxPlanck",
@@ -94,14 +78,12 @@
           
             {
                 "name": "Aadharsh Pannirselvam",
-                "affiliates": "Galaxy Digital",
+                "affiliates": "Galaxy Digital, Benzinga",
                 "subtitle": "UChicago 24",
                 "linkedin": "https://www.linkedin.com/in/aadharsh-pannirselvam/",
                 "twitter": "https://twitter.com/aadharsh2010",
                 "imagePath": "addharsh.jpg"
             },
-           
-
             {
                 "name": "Nikko Wheeler",
                 "affiliates": "USN",
