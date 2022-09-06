@@ -24,6 +24,7 @@ class Team extends React.Component {
                             require("../teamImgs/" + teamMember.imagePath)
                               .default
                           }
+                          height="240px"
                           className="profileImg"
                           alt={teamMember.name}
                         />

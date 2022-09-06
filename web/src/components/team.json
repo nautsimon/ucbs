@@ -27,22 +27,6 @@
                 "imagePath": "richa.jpg"
             },
             {
-                "name": "Timothy Clifford",
-                "affiliates": "Blockchain Coinvestors & Fifth Era, Chicago DAO",
-                "subtitle": "UChicago 24",
-                "linkedin": "https://www.linkedin.com/in/timothy-clifford-125141211/",
-                "twitter": "",
-                "imagePath": "tim.jpg"
-            },
-            {
-                "name": "Madhav Vats",
-                "affiliates": "Crowdstrike, Alchemy, Chicago DAO",
-                "subtitle": "UChicago 23",
-                "linkedin": "https://www.linkedin.com/in/madhavvats/",
-                "twitter": "",
-                "imagePath": "madhav.jpeg"
-            },
-            {
                 "name": "Emi Andere",
                 "affiliates": "Impossible Finance, Glip",
                 "subtitle": "UChicago 25",
@@ -50,7 +34,7 @@
                 "twitter": "https://twitter.com/technoabsurdist",
                 "imagePath": "emi.jpg"
             },
-            {
+           {
                 "name": "Luke Rosa",
                 "affiliates": "Sei Labs, Passport Labs",
                 "subtitle": "UChicago 24",
@@ -59,6 +43,30 @@
                 "imagePath": "luke.jpg"
             },
             {
+                "name": "Timothy Clifford",
+                "affiliates": "Blockchain Coinvestors & Fifth Era, Chicago DAO",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/timothy-clifford-125141211/",
+                "twitter": "",
+                "imagePath": "tim.jpg"
+            },
+            {
+                "name": "Dylan Sunjic",
+                "affiliates": "NextGen Growth Partners, Urban Labs",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/dylan-sunjic-72852a20b/",
+                "twitter": "",
+                "imagePath": "dylan-min.jpg"
+            }, 
+            {
+                "name": "Madhav Vats",
+                "affiliates": "Crowdstrike, Alchemy, Chicago DAO",
+                "subtitle": "UChicago 23",
+                "linkedin": "https://www.linkedin.com/in/madhavvats/",
+                "twitter": "",
+                "imagePath": "madhav.jpeg"
+            },
+           {
                 "name": "Nathan Russel",
                 "affiliates": "Pantera Capital, Autograph",
                 "subtitle": "UChicago 25",
