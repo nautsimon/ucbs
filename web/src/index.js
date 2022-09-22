@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import SceneThree from "./components/SceneThree";
 import SceneThree2 from "./components/SceneThree";
 import Graduates from "./components/Graduates";
 
@@ -41,12 +40,6 @@ ReactDOM.render(
         <PrevEvents />
         <Footer />
       </Route>
-      {/* <Route path="/test">
-        <SceneThree />
-      </Route>
-      <Route path="/test2">
-        <SceneThree2 />
-      </Route> */}
       <Route path="/graduates/:address" >
         <Graduates />
       </Route>

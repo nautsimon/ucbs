@@ -1,6 +1,7 @@
 import linkedin from "../imgs/linked.png";
 import instagram from "../imgs/instagram.png";
 import twitter from "../imgs/twitter.png";
+
 function Footer() {
   return (
     <footer>
