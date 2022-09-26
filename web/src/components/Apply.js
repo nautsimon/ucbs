@@ -47,11 +47,33 @@ class About extends React.Component {
                     className="socialLink"
                     style={{pointerEvents:"none", opacity: 0.5}}
                   >
-                    <img className="applyImg" src={applyDis} alt="staffImg" />
+                    <img className="applyImg" src={applyDis} style={{marginBottom: "1rem" }} alt="staffImg" />
                   </a>
+                  
                 </div>
               </div>
+
             </div>
+                  <a
+                    style={{marginTop: "5rem"}}
+                    href="https://docs.google.com/document/d/1r2rFW4ydXO6QRixfcW-rEpPUGnXw9ktn365Ko5oBC54/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="centerRow"
+                  >
+                    <bold>2022-23</bold>Blockchain Club Memo               
+                  
+                  </a>
+
+                    <p className="centerRow"><strong>TLDR</strong></p>
+                    <p className="centerRow" style={{textAlign: "center"}}>
+                      Our New Member Education and speaker events will now be open to the entire UChicago <br /> 
+                      community while taking a small cohort of 7-12 members. We are shifting our focus for <br />
+                      our upcoming cohorts from education to offering to work on real-world projects <br />
+                      (e.g., internships, part-time jobs, hackathons, grants, etc.). We have expanded from our <br /> 
+                      “test run” last year and now can provide far more valuable experiences to our <br />
+                      members and the broader UChicago community.
+                    </p>
           </FadeIn>
         </div>
       </div>

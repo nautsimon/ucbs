@@ -370,7 +370,7 @@ class SceneThree extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="socialLink">
-              <bold>2022-23</bold> Blockchain Club Memo Now Available
+              <bold>2022-23</bold> Blockchain Club Memo               
               </a>
           </div>
         </div>
