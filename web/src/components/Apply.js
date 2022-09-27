@@ -1,6 +1,7 @@
 import React from "react"; //imports react
 import FadeIn from "react-fade-in";
 import applyDis from "../imgs/applyh.png";
+import { NavLink } from "react-router-dom";
 // import staff from "../imgs/staffPic.png";
 
 class About extends React.Component {
@@ -20,13 +21,10 @@ class About extends React.Component {
                   - Tuesday, September 27th, 2022: Applications released
                 </p>
                 <p className="regularSubTitle">
-                  - Thursday, September 29th, 2022: Info Session #1
+                  - Monday, October 3rd, 2022: Info Session
                 </p>
                 <p className="regularSubTitle">
-                  - Monday, October 3rd, 2022: Info session #2
-                </p>
-                <p className="regularSubTitle">
-                  - Tuesday, October 4th, 2022: Applications close
+                  - Wednesday, October 5th, 2022: Applications close
                 </p>
                 <p className="regularSubTitle">
                   - Tuesday, October 8th - 10th, 2022: Interviews
@@ -54,26 +52,14 @@ class About extends React.Component {
               </div>
 
             </div>
-                  <a
-                    style={{marginTop: "5rem"}}
-                    href="https://docs.google.com/document/d/1r2rFW4ydXO6QRixfcW-rEpPUGnXw9ktn365Ko5oBC54/edit?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="centerRow"
+                  <NavLink
+                    className="navLinkText hover centerRow"
+                    activeClassName="linkActive"
+                    to="/memo"
+                    style={{fontSize: "20px"}}
                   >
-                    <bold>2022-23</bold>Blockchain Club Memo               
-                  
-                  </a>
-
-                    <p className="centerRow"><strong>TLDR</strong></p>
-                    <p className="centerRow" style={{textAlign: "center"}}>
-                      Our New Member Education and speaker events will now be open to the entire UChicago <br /> 
-                      community while taking a small cohort of 7-12 members. We are shifting our focus for <br />
-                      our upcoming cohorts from education to offering to work on real-world projects <br />
-                      (e.g., internships, part-time jobs, hackathons, grants, etc.). We have expanded from our <br /> 
-                      “test run” last year and now can provide far more valuable experiences to our <br />
-                      members and the broader UChicago community.
-                    </p>
+                    [2022-23 Memo]      
+                  </NavLink>
           </FadeIn>
         </div>
       </div>

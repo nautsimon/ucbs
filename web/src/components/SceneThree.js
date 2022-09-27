@@ -364,14 +364,13 @@ class SceneThree extends Component {
                 <img src={instagram} alt="instagram" className="icon" />
               </a>
              </div>
-              <a
-                style={{cursor: "pointer", marginTop: "1rem"}}
-                href="https://docs.google.com/document/d/1r2rFW4ydXO6QRixfcW-rEpPUGnXw9ktn365Ko5oBC54/edit?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="socialLink">
-              <bold>2022-23</bold> Blockchain Club Memo               
-              </a>
+              <NavLink
+                className="navLinkText hover"
+                activeClassName="linkActive"
+                to="/memo"
+              >
+                [<bold>2022-23</bold> Club Memo]      
+              </NavLink>
           </div>
         </div>
       </div>

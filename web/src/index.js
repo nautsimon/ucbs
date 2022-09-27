@@ -12,6 +12,8 @@ import Team from "./components/Team";
 import Events from "./components/Events";
 import PrevEvents from "./components/PrevEvents";
 import Footer from "./components/Footer";
+import Memo from "./components/Memo"; 
+
 ReactDOM.render(
   <Router>
     <Switch>
@@ -39,6 +41,11 @@ ReactDOM.render(
         <Nav />
         <PrevEvents />
         <Footer />
+      </Route>
+      <Route path="/memo">
+        <Nav />
+        <Memo /> 
+        <Footer /> 
       </Route>
       <Route path="/graduates/:address" >
         <Graduates />
