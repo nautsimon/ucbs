@@ -34,14 +34,6 @@ class About extends React.Component {
                   - Wednesday, October 11th: Applicants notified
                 </p> */}
                 {/* <p className="regularTitle">Apply to our Spring 2022 cohort </p> */}
-                <NavLink
-                  className="navLinkText hover"
-                  activeClassName="linkActive"
-                  to="/memo"
-                  // style={{fontSize: "20px"}}
-                >
-                  [2022-23 Memo]      
-                </NavLink>
                 <br /> 
                 <br /> 
               </div>
