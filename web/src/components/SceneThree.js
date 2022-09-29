@@ -364,13 +364,6 @@ class SceneThree extends Component {
                 <img src={instagram} alt="instagram" className="icon" />
               </a>
              </div>
-              <NavLink
-                className="navLinkText hover"
-                activeClassName="linkActive"
-                to="/memo"
-              >
-                [<bold>2022-23</bold> Club Memo]      
-              </NavLink>
           </div>
         </div>
       </div>

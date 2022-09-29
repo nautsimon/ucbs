@@ -15,9 +15,10 @@ class About extends React.Component {
             <div className="row">
               <div className="aboutLeft">
                 <br/>
-              <p className="regularTitle">Fall Quarter 2022 Recruitment Timeline</p>
+              <p className="regularTitle">Winter Quarter 2022 Recruitment Timeline</p>
+              <p className="regularSubtitle">Only Application Cycle Opening In Winter Quarter</p>
               <br /> 
-                <p className="regularSubTitle">
+                {/* <p className="regularSubTitle">
                   - Tuesday, September 27th, 2022: Applications released
                 </p>
                 <p className="regularSubTitle">
@@ -31,8 +32,16 @@ class About extends React.Component {
                 </p>
                 <p className="regularSubTitle">
                   - Wednesday, October 11th: Applicants notified
-                </p>
+                </p> */}
                 {/* <p className="regularTitle">Apply to our Spring 2022 cohort </p> */}
+                <NavLink
+                  className="navLinkText hover"
+                  activeClassName="linkActive"
+                  to="/memo"
+                  // style={{fontSize: "20px"}}
+                >
+                  [2022-23 Memo]      
+                </NavLink>
                 <br /> 
                 <br /> 
               </div>
@@ -52,14 +61,7 @@ class About extends React.Component {
               </div>
 
             </div>
-                  <NavLink
-                    className="navLinkText hover centerRow"
-                    activeClassName="linkActive"
-                    to="/memo"
-                    style={{fontSize: "20px"}}
-                  >
-                    [2022-23 Memo]      
-                  </NavLink>
+                  
           </FadeIn>
         </div>
       </div>

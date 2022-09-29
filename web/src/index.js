@@ -42,11 +42,6 @@ ReactDOM.render(
         <PrevEvents />
         <Footer />
       </Route>
-      <Route path="/memo">
-        <Nav />
-        <Memo /> 
-        <Footer /> 
-      </Route>
       <Route path="/graduates/:address" >
         <Graduates />
       </Route>
