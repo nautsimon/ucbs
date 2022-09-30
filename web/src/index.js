@@ -12,7 +12,6 @@ import Team from "./components/Team";
 import Events from "./components/Events";
 import PrevEvents from "./components/PrevEvents";
 import Footer from "./components/Footer";
-import Memo from "./components/Memo"; 
 
 ReactDOM.render(
   <Router>

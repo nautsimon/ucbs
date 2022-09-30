@@ -1,7 +1,6 @@
 import React from "react"; //imports react
 import FadeIn from "react-fade-in";
 import applyDis from "../imgs/applyh.png";
-import { NavLink } from "react-router-dom";
 // import staff from "../imgs/staffPic.png";
 
 class About extends React.Component {
