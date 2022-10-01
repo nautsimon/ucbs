@@ -1,2 +1,47 @@
 [
+    {
+        "dateFormatted": "October 12th", 
+        "timeFormatted": "TBA", 
+        "name": "Solidity Smart Contract Engineering", 
+        "description": "Hands-on workshop to learn how to build your first smart contract on the Ethereum blockchain.", 
+        "extraDescription": "", 
+        "location": "TBA", 
+        "registrationLink": ""
+    },
+    {
+        "dateFormatted": "October 19th", 
+        "timeFormatted": "TBA", 
+        "name": "Speaker Event", 
+        "description": "", 
+        "extraDescription": "", 
+        "location": "TBA", 
+        "registrationLink": ""
+    },
+    {
+        "dateFormatted": "November 9th", 
+        "timeFormatted": "TBA", 
+        "name": "Front-end in the Web3 Space", 
+        "description": "Hands-on workshop to learn how to use React and other common libraries ubiquitous in the Blockchain industry.", 
+        "extraDescription": "", 
+        "location": "TBA", 
+        "registrationLink": ""
+    },
+    {
+        "dateFormatted": "November 16th", 
+        "timeFormatted": "TBA", 
+        "name": "Speaker Event #2", 
+        "description": "", 
+        "extraDescription": "", 
+        "location": "TBA", 
+        "registrationLink": ""
+    },
+    {
+        "dateFormatted": "December 1st", 
+        "timeFormatted": "TBA", 
+        "name": "Web3 Hacknight", 
+        "description": "Join us in our last Hacknight before Winter break (free pizza and insomnia!)", 
+        "extraDescription": "", 
+        "location": "TBA", 
+        "registrationLink": ""
+    }
 ]
