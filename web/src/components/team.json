@@ -1,15 +1,7 @@
 [
     {
-        "teamTeir": "Team",
+        "teamTeir": "Active Team",
         "members": [
-            {
-                "name": "Elliot Paschal",
-                "affiliates": "SW7 Group, Juicebox DAO, Chicago DAO",
-                "subtitle": "UChicago 24",
-                "linkedin": "https://www.linkedin.com/in/elliot-paschal/",
-                "twitter": "https://twitter.com/elliot_paschal",
-                "imagePath": "elliot.jpg"
-            },
             {
                 "name": "Simon Mahns",
                 "affiliates": "Meta, Globus Labs, CSIL, Chicago DAO",
@@ -19,14 +11,6 @@
                 "imagePath": "simon.jpg"
             },
             {
-                "name": "Richa Pillai",
-                "affiliates": "Diffuse Inc, SAP NS2",
-                "subtitle": "UChicago 24",
-                "linkedin": "https://www.linkedin.com/in/richa-pillai-627527181/",
-                "twitter": "",
-                "imagePath": "richa.jpg"
-            },
-            {
                 "name": "Emi Andere",
                 "affiliates": "Impossible Finance, Glip",
                 "subtitle": "UChicago 25",
@@ -34,7 +18,39 @@
                 "twitter": "https://twitter.com/technoabsurdist",
                 "imagePath": "emi.jpg"
             },
-           {
+            {
+                "name": "Javier Portet",
+                "affiliates": "Google, XPR",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/jportet",
+                "twitter": "https://twitter.com/javierportet",
+                "imagePath": "javi.png"
+            },
+            {
+                "name": "Steven Arellano",
+                "affiliates": "Linkedin, Sei Labs",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/stevenjarellano/",
+                "twitter": "https://www.linkedin.com/in/stevenjarellano/",
+                "imagePath": "steven.png"
+            },
+            {
+                "name": "Dylan Sunjic",
+                "affiliates": "NextGen Growth Partners, Urban Labs",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/dylan-sunjic-72852a20b/",
+                "twitter": "",
+                "imagePath": "dylan-min.jpg"
+            }, 
+            {
+                "name": "Elliot Paschal",
+                "affiliates": "SW7 Group, Juicebox DAO, Chicago DAO",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/elliot-paschal/",
+                "twitter": "https://twitter.com/elliot_paschal",
+                "imagePath": "elliot.jpg"
+            },
+            {
                 "name": "Luke Rosa",
                 "affiliates": "Sei Labs, Passport Labs",
                 "subtitle": "UChicago 24",
@@ -50,15 +66,7 @@
                 "twitter": "",
                 "imagePath": "tim.jpg"
             },
-            {
-                "name": "Dylan Sunjic",
-                "affiliates": "NextGen Growth Partners, Urban Labs",
-                "subtitle": "UChicago 24",
-                "linkedin": "https://www.linkedin.com/in/dylan-sunjic-72852a20b/",
-                "twitter": "",
-                "imagePath": "dylan-min.jpg"
-            }, 
-            {
+           {
                 "name": "Madhav Vats",
                 "affiliates": "Crowdstrike, Alchemy, Chicago DAO",
                 "subtitle": "UChicago 23",
@@ -66,7 +74,15 @@
                 "twitter": "",
                 "imagePath": "madhav.jpeg"
             },
-           {
+            {
+                "name": "Richa Pillai",
+                "affiliates": "Diffuse Inc, SAP NS2",
+                "subtitle": "UChicago 24",
+                "linkedin": "https://www.linkedin.com/in/richa-pillai-627527181/",
+                "twitter": "",
+                "imagePath": "richa.jpg"
+            },
+            {
                 "name": "Nathan Russel",
                 "affiliates": "Pantera Capital, Autograph",
                 "subtitle": "UChicago 25",
