@@ -25,10 +25,9 @@ class About extends React.Component {
               <div className="applyImgDiv">
                   <a
                     href="https://forms.gle/LHnBNZWzPgLEqsRA7"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="socialLink"
-                    style={{pointerEvents:"none", opacity: 0.5}}
+                    // target="_blank"
+                    // rel="noopener noreferrer"
+                    // className="socialLink"
                   >
                     <img className="applyImg" src={applyDis} style={{marginBottom: "1rem" }} alt="staffImg" />
                   </a>
