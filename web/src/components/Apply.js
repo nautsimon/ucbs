@@ -16,6 +16,7 @@ class About extends React.Component {
                 <br/>
               <p className="regularTitle">Winter Quarter 2023 Recruitment Timeline</p>
               <p className="regularSubtitle">Only Application Cycle Opening In Winter Quarter</p>
+              <a href="https://forms.gle/LHnBNZWzPgLEqsRA7">Link to application</a>
               <br /> 
                 <br /> 
                 <br /> 
