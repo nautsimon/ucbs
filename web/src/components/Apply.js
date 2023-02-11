@@ -8,15 +8,15 @@ class About extends React.Component {
     return (
       <div className="mainDiv">
         <div className="mainMarginDiv">
-          <p className="pageTitle">Applications Open until 02/03</p>
           <br />
           <FadeIn transitionDuration={1100}>
             <div className="row">
               <div className="aboutLeft">
                 <br/>
               <p className="regularTitle">Winter Quarter 2023 Recruitment Timeline</p>
-              <p className="regularSubtitle">Only Application Cycle Opening In Winter Quarter</p>
-              <a href="https://forms.gle/LHnBNZWzPgLEqsRA7">Link to application</a>
+              <p className="regularSubtitle">Only Application Cycle Finished Winter Quarter</p>
+              <p className="regularSubtitle">Will open up Autumn quarter 2023!</p>
+              {/* <a href="https://forms.gle/LHnBNZWzPgLEqsRA7">Link to application</a> */}
               <br /> 
                 <br /> 
                 <br /> 
@@ -25,11 +25,11 @@ class About extends React.Component {
               <div className="applyImgDiv">
                   <a
                     href="https://forms.gle/LHnBNZWzPgLEqsRA7"
-                    // target="_blank"
-                    // rel="noopener noreferrer"
-                    // className="socialLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="socialLink"
                   >
-                    <img className="applyImg" src={applyDis} style={{marginBottom: "1rem" }} alt="staffImg" />
+                    {/* <img className="applyImg" src={applyDis} style={{marginBottom: "1rem" }} alt="staffImg" /> */}
                   </a>
                   
                 </div>
