@@ -7,12 +7,12 @@ function Footer() {
     <footer>
       <div className="rowSocial centerRow">
         <a
-          href="https://www.linkedin.com/company/blockchain-chicago"
+          href="https://web.telegram.org/k/#@chainebloque"
           target="_blank"
           rel="noopener noreferrer"
           className="socialLink"
         >
-          <img src={linkedin} alt="linkedin" className="icon" />
+          <img src={tg} alt="tg" className="icon2" />
         </a>
         <a
           href="https://twitter.com/ucblockchain"
@@ -32,7 +32,6 @@ function Footer() {
         </a>
       </div>
       <p className="noMargin">contact@blockchainchicago.finance</p>
-
     </footer>
   );
 }

@@ -75,9 +75,9 @@ class About extends React.Component {
                   {/* <NavLink className="navLinkImg hover" to="/events">
                   <img src={events} alt="events" className="aboutTileImg" />
                 </NavLink> */}
-                  <NavLink className="navLinkImg hover" to="/team">
+                  {/* <NavLink className="navLinkImg hover" to="/team">
                     <img src={team} alt="team" className="aboutTileImg" />
-                  </NavLink>
+                  </NavLink> */}
                 </div>
               </div>
             </div>

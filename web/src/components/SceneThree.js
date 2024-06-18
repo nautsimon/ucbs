@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import linkedin from "../imgs/linked.png";
 import instagram from "../imgs/instagram.png";
 import twitter from "../imgs/twitter.png";
-
+import tg from "../imgs/tg.png";
 //https://codepen.io/negan1911/pen/GLbBGm
 //https://codepen.io/wrtchd/pen/mJOGap soft edges
 var counter = 0;
@@ -340,12 +340,12 @@ class SceneThree extends Component {
             <p className="mainTitle">BLOCKCHAIN CHICAGO</p>
             <div className="rowSocial centerRow">
               <a
-                href="https://www.linkedin.com/company/blockchain-chicago"
+                href="https://web.telegram.org/k/#@chainebloque"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="socialLink"
               >
-                <img src={linkedin} alt="linkedin" className="icon" />
+                <img src={tg} alt="tg" className="icon2" />
               </a>
               <a
                 href="https://twitter.com/ucblockchain"

@@ -23,7 +23,7 @@ class Nav extends React.Component {
           >
             About
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className="navLinkText hover"
             activeClassName="linkActive"
             to="/"
@@ -44,7 +44,7 @@ class Nav extends React.Component {
             to="/apply"
           >
             Apply
-          </NavLink>
+          </NavLink> */}
         </div>
       </nav>
     );

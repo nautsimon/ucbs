@@ -367,6 +367,10 @@ a {
 .icon{
   width: 18px;
 }
+.icon2{
+  width: 18px;
+  border-radius: 15px;
+}
 .iconDiv{
   display: flex;
   align-items: center;
