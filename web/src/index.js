@@ -3,14 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SceneThree2 from "./components/SceneThree";
-import Graduates from "./components/Graduates";
+// import Graduates from "./components/Graduates";
 
 import About from "./components/About";
 import Nav from "./components/Nav";
-import Apply from "./components/Apply";
-import Team from "./components/Team";
-import Events from "./components/Events";
-import PrevEvents from "./components/PrevEvents";
+// import Apply from "./components/Apply";
+// import Team from "./components/Team";
+// import Events from "./components/Events";
+// import PrevEvents from "./components/PrevEvents";
 import Footer from "./components/Footer";
 
 ReactDOM.render(
