@@ -1,6 +1,6 @@
 import React from "react"; //imports react
 import { NavLink } from "react-router-dom";
-import logo from "../imgs/bc.png";
+// import logo from "../imgs/bc.png";
 
 
 class Nav extends React.Component {
