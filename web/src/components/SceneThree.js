@@ -292,11 +292,11 @@ class SceneThree extends Component {
                 href="https://forms.gle/VPm7bpKkQgUhRSHc7"
                 className="eventLink hover"
               >
-                Apply for our Spring '22 Cohort
+                Info for 2024-2025 coming soon!
               </a>
             </p>
             <br />
-            <i>
+            {/* <i>
               Register for our info sessions on our {" "}
               <NavLink
                 exact={true}
@@ -308,7 +308,7 @@ class SceneThree extends Component {
                 "apply"
               </NavLink>{" "}
               page{" "}
-            </i>
+            </i> */}
           </div>
         </div>
         <div className="tempMain">
@@ -322,7 +322,7 @@ class SceneThree extends Component {
                 <span className="navLinkTextSpan">[About]</span>
               </NavLink>
 
-              <NavLink
+              {/* <NavLink
                 className="navLinkText "
                 activeClassName="linkActive"
                 to="/events"
@@ -335,7 +335,7 @@ class SceneThree extends Component {
                 to="/apply"
               >
                 <span className="navLinkTextSpan">[Apply]</span>
-              </NavLink>
+              </NavLink> */}
             </div>
             <p className="mainTitle">BLOCKCHAIN CHICAGO</p>
             <div className="rowSocial centerRow">

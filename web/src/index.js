@@ -16,17 +16,17 @@ import Footer from "./components/Footer";
 ReactDOM.render(
   <Router>
     <Switch>
-      <Route path="/team">
+      {/* <Route path="/team">
         <Nav />
         <Team />
         <Footer />
-      </Route>
+      </Route> */}
       <Route path="/about">
         <Nav />
         <About />
         <Footer />
       </Route>
-      <Route path="/apply">
+      {/* <Route path="/apply">
         <Nav />
         <Apply />
         <Footer />
@@ -43,7 +43,7 @@ ReactDOM.render(
       </Route>
       <Route path="/graduates/:address" >
         <Graduates />
-      </Route>
+      </Route> */}
       <Route path="/">
         <SceneThree2 />
       </Route>
