@@ -1,9 +1,9 @@
 import React from "react"; //imports react
 import FadeIn from "react-fade-in";
-import { NavLink } from "react-router-dom";
-// import events from "../imgs/events.png";
-// import linktree from "../imgs/linktree.png";
-import team from "../imgs/team3.png";
+// import { NavLink } from "react-router-dom";
+// // import events from "../imgs/events.png";
+// // import linktree from "../imgs/linktree.png";
+// import team from "../imgs/team3.png";
 import listhost from "../imgs/listhost.png";
 
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import * as THREE from "three";
 import SimplexNoise from "simplex-noise";
 import { NavLink } from "react-router-dom";
-import linkedin from "../imgs/linked.png";
+// import linkedin from "../imgs/linked.png";
 import instagram from "../imgs/instagram.png";
 import twitter from "../imgs/twitter.png";
 import tg from "../imgs/tg.png";
