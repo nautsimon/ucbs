@@ -340,7 +340,7 @@ class SceneThree extends Component {
             <p className="mainTitle">BLOCKCHAIN CHICAGO</p>
             <div className="rowSocial centerRow">
               <a
-                href="https://web.telegram.org/k/#@chainebloque"
+                href="https://t.me/blockchainchicago"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="socialLink"

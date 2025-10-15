@@ -8,13 +8,14 @@ function Footer() {
     <footer>
       <div className="rowSocial centerRow">
         <a
-          href="https://web.telegram.org/k/#@chainebloque"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="socialLink"
-        >
-          <img src={tg} alt="tg" className="icon2" />
-        </a>
+  href="https://t.me/blockchainchicago"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="socialLink"
+>
+  <img src={tg} alt="Telegram" className="icon2" />
+</a>
+
         <a
           href="https://twitter.com/ucblockchain"
           target="_blank"
