@@ -23,14 +23,6 @@ class Nav extends React.Component {
           >
             About
           </NavLink>
-          {/* <NavLink
-            className="navLinkText hover"
-            activeClassName="linkActive"
-            to="/"
-          >
-            <img src={logo} className="logoNav" alt="logo" />
-          </NavLink>
-
           <NavLink
             className="navLinkText hover"
             activeClassName="linkActive"
@@ -38,13 +30,15 @@ class Nav extends React.Component {
           >
             Events
           </NavLink>
+
           <NavLink
             className="navLinkText hover"
             activeClassName="linkActive"
             to="/apply"
           >
             Apply
-          </NavLink> */}
+          </NavLink>
+          {/* Logo link removed for simplicity */}
         </div>
       </nav>
     );

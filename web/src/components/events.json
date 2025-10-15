@@ -1,2 +1,30 @@
 [
+  {
+    "dateFormatted": "Oct 29, 2025",
+    "timeFormatted": "TBD",
+    "name": "Solana & College.xyz x Blockchain Chicago",
+    "description": "Joint event with Solana and College.xyz.",
+    "extraDescription": "",
+    "location": "TBD",
+    "registrationLink": "https://example.com/register-solana"
+  },
+  {
+    "dateFormatted": "Nov 6, 2025",
+    "timeFormatted": "TBD",
+    "name": "Gemini Info Session",
+    "description": "Information session with Gemini.",
+    "extraDescription": "",
+    "location": "TBD",
+    "registrationLink": "https://example.com/register-gemini"
+  },
+  {
+    "dateFormatted": "Dec 5-6, 2025",
+    "timeFormatted": "Dec 5, 10:00 AM – Dec 6, 8:00 PM EST",
+    "name": "Midwest Blockchain Conference",
+    "description": "Where Talent Meets Opportunity\n\nThe Midwest Blockchain Conference (MBC) is the leading access point connecting top university talent with the blockchain industry across the U.S. and beyond. What started in the heartland of Ann Arbor has grown into a national movement and global network, now spanning 70+ universities including schools in South America and Europe.\n\nBuilt by students for students, MBC brings together university clubs, high schools, alumni, and industry leaders, all focused on pushing crypto forward through student leadership.",
+    "extraDescription": "https://www.midwestblockchain.org/",
+    "extraDescriptionLabel": "Learn more",
+    "location": "Ross School of Business, Ann Arbor, Michigan",
+    "registrationLink": "https://luma.com/x6apzbr8"
+  }
 ]

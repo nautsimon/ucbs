@@ -1,53 +1,44 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import SceneThree2 from "./components/SceneThree";
-// import Graduates from "./components/Graduates";
+import "./index.css";
 
-import About from "./components/About";
 import Nav from "./components/Nav";
-// import Apply from "./components/Apply";
-// import Team from "./components/Team";
-// import Events from "./components/Events";
-// import PrevEvents from "./components/PrevEvents";
 import Footer from "./components/Footer";
+import About from "./components/About";
+import SceneThree from "./components/SceneThree";
+import Events from "./components/Events";
+import Apply from "./components/Apply";
+import PrevEvents from "./components/PrevEvents";
+import Graduates from "./components/Graduates";
 
-ReactDOM.render(
-  <Router>
-    <Switch>
-      {/* <Route path="/team">
-        <Nav />
-        <Team />
-        <Footer />
-      </Route> */}
-      <Route path="/about">
-        <Nav />
-        <About />
-        <Footer />
-      </Route>
-      {/* <Route path="/apply">
-        <Nav />
-        <Apply />
-        <Footer />
-      </Route>
-      <Route path="/events">
-        <Nav />
-        <Events />
-        <Footer />
-      </Route>
-      <Route path="/previous-events">
-        <Nav />
-        <PrevEvents />
-        <Footer />
-      </Route>
-      <Route path="/graduates/:address" >
-        <Graduates />
-      </Route> */}
-      <Route path="/">
-        <SceneThree2 />
-      </Route>
-    </Switch>
-  </Router>,
-  document.getElementById("root")
-);
+function App() {
+  return (
+    <Router>
+      <Switch>
+        {/* Home: no top nav, just the animated landing */}
+        <Route exact path="/" component={SceneThree} />
+
+        {/* All other routes: include Nav + Footer */}
+        <Route
+          path="/"
+          render={() => (
+            <>
+              <Nav />
+              <Switch>
+                <Route exact path="/about" component={About} />
+                <Route exact path="/events" component={Events} />
+                <Route exact path="/apply" component={Apply} />
+                <Route exact path="/previous-events" component={PrevEvents} />
+                <Route exact path="/graduates/:address" component={Graduates} />
+              </Switch>
+              <Footer />
+            </>
+          )}
+        />
+      </Switch>
+    </Router>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));

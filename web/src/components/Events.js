@@ -48,10 +48,31 @@ class Team extends React.Component {
                         </div>
                         <p className="eventTitle">{event.name}</p>
 
-                        <p className="eventText">{event.description}</p>
+                        <div className="eventText">
+                          {String(event.description)
+                            .split(/\n\n+/)
+                            .map((para, idx) => (
+                              <p key={idx} style={{ marginTop: idx === 0 ? 0 : 12 }}>
+                                {para}
+                              </p>
+                            ))}
+                        </div>
 
-                        {event.extraDescription.length > 0 ? (
-                          <i className="eventText">{event.extraDescription}</i>
+                        {event.extraDescription && event.extraDescription.length > 0 ? (
+                          <i className="eventText">
+                            {event.extraDescriptionLabel ? (
+                              <a
+                                href={event.extraDescription}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="eventLink hover"
+                              >
+                                {event.extraDescriptionLabel}
+                              </a>
+                            ) : (
+                              event.extraDescription
+                            )}
+                          </i>
                         ) : null}
                         <hr className="line" />
 

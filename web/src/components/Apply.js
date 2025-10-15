@@ -8,31 +8,14 @@ class About extends React.Component {
     return (
       <div className="mainDiv">
         <div className="mainMarginDiv">
+          <p className="pageTitle">Apply</p>
           <br />
           <FadeIn transitionDuration={1100}>
-            <div className="row">
-              <div className="aboutLeft">
-                <br/>
-              <p className="regularTitle">Winter Quarter 2023 Recruitment Timeline</p>
-              <p className="regularSubtitle">Only Application Cycle Finished Winter Quarter</p>
-              <p className="regularSubtitle">Will open up Autumn quarter 2023!</p>
-              {/* <a href="https://forms.gle/LHnBNZWzPgLEqsRA7">Link to application</a> */}
-              <br /> 
-                <br /> 
-                <br /> 
-              </div>
-              <div className="aboutRight">
-              <div className="applyImgDiv">
-                  <a
-                    href="https://forms.gle/LHnBNZWzPgLEqsRA7"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="socialLink"
-                  >
-                    {/* <img className="applyImg" src={applyDis} style={{marginBottom: "1rem" }} alt="staffImg" /> */}
-                  </a>
-                  
-                </div>
+            <div className="row" style={{ justifyContent: "flex-start", alignItems: "center", textAlign: "center", minHeight: "40vh", paddingTop: "6vh" }}>
+              <div className="aboutLeft" style={{ width: "100%" }}>
+                <p>
+                  Applications for the Fall 2025 Cohort are now closed. Please keep an eye on our socials for news on upcoming recruitment cycles.
+                </p>
               </div>
 
             </div>

@@ -312,7 +312,7 @@ class SceneThree extends Component {
           </div>
         </div>
         <div className="tempMain">
-          <div className="tempCenter">
+          <div className="tempCenter" style={{ minHeight: "100vh" }}>
             <div className="menu">
               <NavLink
                 className="navLinkText "
@@ -321,8 +321,7 @@ class SceneThree extends Component {
               >
                 <span className="navLinkTextSpan">[About]</span>
               </NavLink>
-
-              {/* <NavLink
+              <NavLink
                 className="navLinkText "
                 activeClassName="linkActive"
                 to="/events"
@@ -335,10 +334,10 @@ class SceneThree extends Component {
                 to="/apply"
               >
                 <span className="navLinkTextSpan">[Apply]</span>
-              </NavLink> */}
+              </NavLink>
             </div>
-            <p className="mainTitle">BLOCKCHAIN CHICAGO</p>
-            <div className="rowSocial centerRow">
+            <p className="mainTitle" style={{ marginTop: 0 }}>BLOCKCHAIN CHICAGO</p>
+            <div className="rowSocial centerRow" style={{ marginTop: 8 }}>
               <a
                 href="https://t.me/blockchainchicago"
                 target="_blank"
