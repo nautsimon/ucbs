@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# UCBS Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Live Preview While Editing
+
+Run the dev server to see changes in real time:
+
+```bash
+npm start
+# or: yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser. The page auto-reloads when you save files.
+
+## Deploy to Netlify
+
+1. Push your code to GitHub (or GitLab/Bitbucket).
+2. Go to [netlify.com](https://www.netlify.com) → **Add new site** → **Import an existing project**.
+3. Connect your repository.
+4. Netlify will auto-detect the `netlify.toml` config:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `build`
+5. Click **Deploy site**. Future pushes to your main branch will auto-deploy.
 
 ## Available Scripts
 

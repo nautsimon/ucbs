@@ -8,6 +8,7 @@ class Home extends React.Component {
         <div className="mainMarginDiv">
           <div className="row centerRow" style={{ gap: 16 }}>
             <NavLink className="navLinkText hover" to="/about">About</NavLink>
+            <NavLink className="navLinkText hover" to="/projects">Projects</NavLink>
             <NavLink className="navLinkText hover" to="/apply">Apply</NavLink>
             <NavLink className="navLinkText hover" to="/events">Events</NavLink>
           </div>

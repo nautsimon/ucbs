@@ -26,6 +26,13 @@ class Nav extends React.Component {
           <NavLink
             className="navLinkText hover"
             activeClassName="linkActive"
+            to="/projects"
+          >
+            Projects
+          </NavLink>
+          <NavLink
+            className="navLinkText hover"
+            activeClassName="linkActive"
             to="/events"
           >
             Events

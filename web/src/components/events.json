@@ -1,30 +1,67 @@
 [
   {
     "dateFormatted": "Oct 29, 2025",
-    "timeFormatted": "TBD",
+    "timeFormatted": "2-5 PM",
     "name": "Solana & College.xyz x Blockchain Chicago",
-    "description": "Blockchain Chicago is proud to present Solana Across Campuses at UChicago, a nationwide meetup powered by College.xyz bringing builders, creators, and curious minds together to explore the Solana ecosystem.\n\nCome hang out, learn how to set up your first wallet, earn $500 worth of SOL, and see what students across the country are building on Solana.",
+    "imagePath": "solana-event.png",
+    "imageFit": "contain",
+    "description": "Blockchain Chicago is proud to present Solana Across Campuses at UChicago, a nationwide meetup powered by College.xyz, bringing builders, creators, and curious minds together to explore the Solana ecosystem.\n\nCome hang out, learn how to set up your first wallet, earn $500 worth of SOL, and see what students across the country are building on Solana.",
     "extraDescription": "",
-    "location": "TBD",
-    "registrationLink": "https://luma.com/kpinafvb?tk=LPwbqe"
-  },
-  {
-    "dateFormatted": "Nov 6, 2025",
-    "timeFormatted": "TBD",
-    "name": "Gemini Info Session",
-    "description": "Information session with Gemini.",
-    "extraDescription": "",
-    "location": "TBD",
-    "registrationLink": "https://example.com/register-gemini"
+    "location": "Reynolds Club 1F Marketplace",
+    "registrationLink": ""
   },
   {
     "dateFormatted": "Dec 5-6, 2025",
     "timeFormatted": "Dec 5, 10:00 AM – Dec 6, 8:00 PM EST",
     "name": "Midwest Blockchain Conference",
+    "imagePath": "midwest-blockchain.png",
     "description": "Where Talent Meets Opportunity\n\nThe Midwest Blockchain Conference (MBC) is the leading access point connecting top university talent with the blockchain industry across the U.S. and beyond. What started in the heartland of Ann Arbor has grown into a national movement and global network, now spanning 70+ universities including schools in South America and Europe.\n\nBuilt by students for students, MBC brings together university clubs, high schools, alumni, and industry leaders, all focused on pushing crypto forward through student leadership.",
     "extraDescription": "https://www.midwestblockchain.org/",
     "extraDescriptionLabel": "Learn more",
     "location": "Ross School of Business, Ann Arbor, Michigan",
-    "registrationLink": "https://luma.com/x6apzbr8"
+    "registrationLink": ""
+  },
+  {
+    "dateFormatted": "Jan 16, 2026",
+    "timeFormatted": "6-7 PM",
+    "name": "Ravi Bakhai Guest Speaker Event",
+    "imagePath": "ravi-bakhai.jpg",
+    "imageFit": "contain",
+    "description": "Join us to hear about Ravi Bakhai's journey from investment banking at Deutsche Bank to founding Hype (YC S22)! He'll also be sharing details about our memecoin trading competition, featuring a $2,000+ prize pool.",
+    "extraDescription": "",
+    "location": "Stuart 105",
+    "registrationLink": ""
+  },
+  {
+    "dateFormatted": "Jan 29, 2026",
+    "timeFormatted": "6-7 PM",
+    "name": "Jarry Xiao Tech Talk",
+    "imagePath": "jarry-xiao.jpg",
+    "description": "We're excited to host Jarry Xiao, cofounder of Ellipsis Labs, for a TED \"Tech\" Talk about on-chain market infrastructure, Solana spot markets, and real-time market microstructure.\n\nIf you're interested in DeFi, trading, market design, or have questions about how modern financial systems are being built from the ground up, you don't want to miss this.",
+    "extraDescription": "",
+    "location": "Harper 102",
+    "registrationLink": ""
+  },
+  {
+    "dateFormatted": "Mar 27-28, 2026",
+    "timeFormatted": "Mar 27, 10:00 AM – Mar 28, 5:00 PM",
+    "name": "Penn Blockchain Conference",
+    "imagePath": "penn-blockchain.png",
+    "description": "The highest-signal conference of the year, hosted by University of Pennsylvania's student-led Blockchain Club. The 6th Penn Blockchain Conference bridges the gap between academia and industry in building decentralized systems, bringing together the brightest minds from around the world. Featured speakers include leaders from Fidelity, Dragonfly, Euler Finance, Coatue, Galaxy Ventures, Portal Ventures, Mastercard, Pantera, 21Shares, and more. The conference and hackathon are hosted in the grand and historic Penn Museum.",
+    "extraDescription": "https://pennblockchain.com/",
+    "extraDescriptionLabel": "Learn more",
+    "location": "Penn Museum, Philadelphia, PA",
+    "registrationLink": ""
+  },
+  {
+    "dateFormatted": "May 5-7, 2026",
+    "timeFormatted": "9:00 AM – 5:00 PM daily",
+    "name": "Miami Consensus",
+    "imagePath": "miami-consensus.png",
+    "description": "Consensus is CoinDesk's annual blockchain and Web3 conference, described as \"the Super Bowl of Blockchain\" and \"the World Cup of Web3.\" The event brings together industry leaders, developers, investors, policymakers, and other professionals in the crypto and blockchain space. Consensus 2026 in Miami is expected to attract 20,000+ attendees from over 100 countries.",
+    "extraDescription": "https://consensus.coindesk.com/",
+    "extraDescriptionLabel": "Learn more",
+    "location": "Miami Beach Convention Center, Miami, Florida",
+    "registrationLink": ""
   }
 ]

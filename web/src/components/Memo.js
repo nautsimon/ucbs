@@ -24,10 +24,10 @@ class Memo extends React.Component {
                 <br />
                 <p className="regularTitle centerRow"><strong>Full Memo</strong></p>
                 <p className="centerRow" style={{justifyContent: "center"}}>
-                Over the Summer, we've had many discussions regarding what we see as the end goal of our club, 
+                Over the summer, we've had many discussions regarding what we see as the end goal of our club, 
                 and how that might affect our recruitment process this coming year. On selectivity, we've analyzed
                 the pros and cons of a low-filtering policy compared to a selective filtering process. 
-                And of the end goal of our club, we've been battling with the essential question of what we create 
+                As for the end goal of our club, we've been battling with the essential question of what we create 
                 using this club. In other words, what's our value-add to the UChicago community? Are we here 
                 to educate any blockchain-interested people or to create a community of serial blockchain hackers? 
                 <br />
@@ -43,7 +43,7 @@ class Memo extends React.Component {
                 <br />
                 <br />
                 But if not an educational club, what exactly are we? That is the root question we've dealt with this 
-                Summer. We realized much of our curriculum from last year could be taught by YouTube and online research,
+                summer. We realized much of our curriculum from last year could be taught by YouTube and online research,
                 so we forced ourselves to think deeper about how our club might be able to go beyond this, and use the sum
                 of our parts to create value for our members and the broader UChicago community. After much consideration,
                 we've decided that the optimal approach towards achieving our goal of building the most important technology
@@ -53,7 +53,7 @@ class Memo extends React.Component {
                 <br />
                 In this new proposed model, we still provide education to our members, but we start defining our educational 
                 process as a means toward an end, not as the goal of the club itself. Our education curriculum for the new year
-                 will be primarily workshop/discussion-based, and rebranded as  "new-member education". This new-member 
+                 will be primarily workshop/discussion-based, and rebranded as "new-member education". This new-member 
                  education will provide enough basic blockchain knowledge for our cohort members to be able to contribute to 
                  real-world projects. One major change we are making is to make this new member education and corresponding 
                  speaker events open to the entire UChicago community, as in the spirit of open source we believe that education 

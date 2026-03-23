@@ -74,23 +74,26 @@ class Team extends React.Component {
                             )}
                           </i>
                         ) : null}
+
+                        {event.imagePath && (
+                          <div className={`eventCardImgDiv ${event.imageFit === "contain" ? "eventCardImgContain" : ""}`}>
+                            <img
+                              src={`${process.env.PUBLIC_URL || ""}/images/events/${event.imagePath}`}
+                              className="eventCardImg"
+                              alt={event.name}
+                              onError={(e) => { e.target.style.display = "none"; }}
+                            />
+                          </div>
+                        )}
                         <hr className="line" />
 
-                        <div className="row spaceBetween">
+                        <div className="row spaceBetween eventLocationRow">
                           <div className="iconDiv">
-                            <img src={location} className="icon" alt="clock" />
+                            <img src={location} className="icon" alt="location" />
                             <p className="eventText textPaddingLeft">
                               {event.location}
                             </p>
                           </div>
-                          <a
-                            href={event.registrationLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="socialLink"
-                          >
-                            <button className="registerButton">Register</button>
-                          </a>
                         </div>
                       </div>
                     </div>

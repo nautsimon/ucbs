@@ -1,0 +1,58 @@
+[
+  {
+    "name": "History of M&As in the Blockchain Space",
+    "description": "A comprehensive account of M&A activity across the blockchain space. M&As reveal how an industry matures: what firms buy instead of build, which models survive downturns, and where moats form. Deal data is scattered across press releases, blogs, and exchange filings; we're pulling it together.",
+    "link": "",
+    "linkLabel": "View Project",
+    "tags": ["Research"],
+    "category": "Research"
+  },
+  {
+    "name": "Distribution Markets Proof of Concept",
+    "description": "A proof-of-concept for distribution markets: an AMM-based prediction market that outputs full probability distributions over continuous outcomes instead of discrete options. We model positions with CDFs and discrete thresholds to keep on-chain execution intuitive while sharing collateral across quantiles. Building in Rust on Solana.",
+    "link": "",
+    "linkLabel": "View Project",
+    "tags": ["Research", "Solana", "Rust"],
+    "category": "Research"
+  },
+  {
+    "name": "Pro-rata Markets in Crypto-Equities",
+    "description": "Evaluating whether pro-rata order books (allocate by size, not time) improve liquidity for crypto-equities that trade 24/7. We compare pro-rata to FIFO on spread, depth, adverse selection, and resiliency, and identify when pro-rata helps versus when it encourages oversized quoting or fragility.",
+    "link": "",
+    "linkLabel": "View Project",
+    "tags": ["Trading", "01 Sponsored"],
+    "category": "Trading"
+  },
+  {
+    "name": "Polymarket Trading Project",
+    "description": "Automated arbitrage and market-making on Polymarket. We focus on negative risk events: disjoint outcomes where one always resolves Yes. We explore sum-of-Yes and sum-of-No arbitrage conditions and execution.",
+    "link": "",
+    "linkLabel": "View Project",
+    "tags": ["Trading", "Polymarket"],
+    "category": "Trading"
+  },
+  {
+    "name": "Hedging Spot Crypto Volatility",
+    "description": "Using Kalshi Crypto Event Contracts to hedge spot exposure. Treating Bitcoin futures markets as option-like instruments, we build a framework for retail investors to control risk without giving up spot exposure.",
+    "link": "",
+    "linkLabel": "View Project",
+    "tags": ["Research", "Kalshi"],
+    "category": "Research"
+  },
+  {
+    "name": "Correlated Markets & Signal Forecasting",
+    "description": "We explore whether correlated prediction markets improve signal extraction beyond a single market. We test if cross-market dependence smooths noise and detects regime shifts, with applications from sports (NFL MVP) to AI narratives.",
+    "link": "",
+    "linkLabel": "View Project",
+    "tags": ["Research", "Kalshi"],
+    "category": "Research"
+  },
+  {
+    "name": "The Blockchain Thesis",
+    "description": "What's the most realistic blockchain use case inside an established company? Starting from corporate constraints (ROI, regulation, integration), we evaluate whether blockchain beats traditional systems or is just hand-wavy.",
+    "link": "",
+    "linkLabel": "View Project",
+    "tags": ["Research"],
+    "category": "Research"
+  }
+]

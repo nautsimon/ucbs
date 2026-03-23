@@ -324,6 +324,13 @@ class SceneThree extends Component {
               <NavLink
                 className="navLinkText "
                 activeClassName="linkActive"
+                to="/projects"
+              >
+                <span className="navLinkTextSpan">[Projects]</span>
+              </NavLink>
+              <NavLink
+                className="navLinkText "
+                activeClassName="linkActive"
                 to="/events"
               >
                 <span className="navLinkTextSpan">[Events]</span>

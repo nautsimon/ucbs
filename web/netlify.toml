@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# SPA fallback - all routes serve index.html (handled by public/_redirects)
+# The _redirects file already contains: /* /index.html 200

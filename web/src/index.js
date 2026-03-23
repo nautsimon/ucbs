@@ -6,6 +6,7 @@ import "./index.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Projects from "./components/Projects";
 import SceneThree from "./components/SceneThree";
 import Events from "./components/Events";
 import Apply from "./components/Apply";
@@ -27,6 +28,7 @@ function App() {
               <Nav />
               <Switch>
                 <Route exact path="/about" component={About} />
+                <Route exact path="/projects" component={Projects} />
                 <Route exact path="/events" component={Events} />
                 <Route exact path="/apply" component={Apply} />
                 <Route exact path="/previous-events" component={PrevEvents} />
