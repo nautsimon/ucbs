@@ -14,6 +14,9 @@ class About extends React.Component {
                 <p>
                   Blockchain Chicago is the University of Chicago’s only recognized blockchain & crypto RSO. We operate four core tracks: Education, Trading, Research, and Development. Members learn by mastering fundamentals, testing strategies, publishing impactful research, and building real on-chain projects.
                 </p>
+                <p style={{ marginTop: 16 }}>
+                  We aim to facilitate an environment where students and enthusiasts are empowered to engage in blockchain-related entrepreneurial and educational pursuits by being actively involved in solving real-world problems through computer science/development, economics, finance, and more.
+                </p>
                 {/*
                 <p className="regularTitle">UChicago Decentralized and Events</p>
                 <p>What is going on the blockchain space? Through public
@@ -40,12 +43,6 @@ class About extends React.Component {
                   </a>
                 </div>
               </div>
-            </div>
-
-            <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: 32, marginBottom: 32 }}>
-              <p style={{ textAlign: "center", maxWidth: 640, margin: 0 }}>
-                We aim to facilitate an environment where students and enthusiasts are empowered to engage in blockchain-related entrepreneurial and educational pursuits by being actively involved in solving real-world problems through computer science/development, economics, finance, and more.
-              </p>
             </div>
           </FadeIn>
         </div>
